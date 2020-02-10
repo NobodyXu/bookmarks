@@ -1,2 +1,2 @@
-# url_bookmarks
-Bookmarks of urls that contains resources about programming.
+# bookmarks
+Bookmarks  that contains resources about programming.
