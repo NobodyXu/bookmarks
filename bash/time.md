@@ -31,5 +31,10 @@ time: time [-p] pipeline
 
 The [answer] answers this [question][2]
 
+# A deeper dive into `time` and `/usr/bin/time`:
+
+[/usr/bin/time: not the command you think you know][3]
+
 [1]: https://askubuntu.com/a/434294/772092
 [2]: https://askubuntu.com/questions/434289/why-doesnt-the-time-command-work-with-any-option
+[3]: https://hackernoon.com/usr-bin-time-not-the-command-you-think-you-know-34ac03e55cc3
