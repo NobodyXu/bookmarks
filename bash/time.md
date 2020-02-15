@@ -1,6 +1,6 @@
 # What is time command, an executable or just a shell builtin?
 
-Read this [answer][1] which says that:
+Read this [answer][1] which answers this [question][2], says that:
 
 > Users of the bash shell need to use an explicit path in order to run
 > the external time command and not the shell builtin variant.  On system
@@ -28,8 +28,6 @@ time: time [-p] pipeline
     Exit Status:
     The return status is the return status of PIPELINE.
 ```
-
-The [answer][1] answers this [question][2]
 
 # A deeper dive into `time` and `/usr/bin/time`:
 
