@@ -29,7 +29,7 @@ time: time [-p] pipeline
     The return status is the return status of PIPELINE.
 ```
 
-The [answer] answers this [question][2]
+The [answer][1] answers this [question][2]
 
 # A deeper dive into `time` and `/usr/bin/time`:
 
