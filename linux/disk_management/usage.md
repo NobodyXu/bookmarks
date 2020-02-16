@@ -1,0 +1,1 @@
+ 1. [Alternative command for coloured viewing the size of all files and folders](https://unix.stackexchange.com/questions/151682/alternative-command-for-coloured-viewing-the-size-of-all-files-and-folders)
