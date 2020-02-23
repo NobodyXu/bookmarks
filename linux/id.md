@@ -12,3 +12,9 @@ Yes, otherwise `setgroups` will fail.
 
  > if you setuid to a non-zero value first (meaning you're no longer root), then call setgroups, the effective uid of the  ?
  > process is now no longer root, meaning that the internal setgid call fails.
+
+### Group passwd
+
+ 1. [Typical use case for a group password](https://unix.stackexchange.com/questions/93123/typical-use-case-for-a-group-password)
+ 
+ Answer: There is none.
