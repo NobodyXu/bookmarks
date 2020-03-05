@@ -7,8 +7,11 @@ It supports:
  - intermittent connectivity
  - intelligent local echo and line editing to reduce the effects of "network lag" on high-latency connections
 
-Mosh uses UDP instead of TCP to avoid blocking all subsequence packages when one is lost and it use
-State Synchronization Protocol to only **transmit** changed part of screen.
+Mosh uses `UDP` instead of `TCP` to
+ - avoid blocking all subsequence packages when one is lost
+ - transmit the latest screen and skipping the intermediate state
+ 
+and it use State Synchronization Protocol to only **transmit** changed part of screen.
 
 More onto the details [here][2].
 
