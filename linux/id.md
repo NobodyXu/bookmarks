@@ -1,3 +1,6 @@
+ 1. [Is the uid_t type signed or unsigned?](https://stackoverflow.com/questions/21370094/is-the-uid-t-type-signed-or-unsigned)
+
+## gid
 The urls below contains explanataions to the concept of `supplementary group`.
 
  1. [Group Identifier](https://en.wikipedia.org/wiki/Group_identifier)
@@ -9,3 +12,9 @@ Yes, otherwise `setgroups` will fail.
 
  > if you setuid to a non-zero value first (meaning you're no longer root), then call setgroups, the effective uid of the  ?
  > process is now no longer root, meaning that the internal setgid call fails.
+
+### Group passwd
+
+ 1. [Typical use case for a group password](https://unix.stackexchange.com/questions/93123/typical-use-case-for-a-group-password)
+ 
+ Answer: There is none.
