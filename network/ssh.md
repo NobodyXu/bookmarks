@@ -16,4 +16,8 @@
  
  Publish ssh fingerprint to DNS record, so that the identity of the ssh server can be confirmed.
  
+ 5. [ssh-audit](https://github.com/arthepsy/ssh-audit)
+ 
+ It can list ssh server information.
+ 
 [1]: http://sites.inka.de/bigred/devel/tcp-tcp.html
