@@ -10,4 +10,6 @@
  > connection from some program to the ssh client. The ssh client encrypts the data and send it through the TCP connection to
  > the server. The server decrypts it ans send it through the third TCP connection to a program at the other end. – kasperd
 
+ 2. [ssh multiplexing](https://en.m.wikibooks.org/wiki/OpenSSH/Cookbook/Multiplexing)
+
 [1]: http://sites.inka.de/bigred/devel/tcp-tcp.html
