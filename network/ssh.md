@@ -22,4 +22,8 @@
  
  6. [Mitigating SSH based attacks – Top 15 Best SSH Security Practices](https://securitytrails.com/blog/mitigating-ssh-based-attacks-top-15-best-security-practices)
  
+ 7. [sshguard](https://www.sshguard.net/)
+ 
+ Automatically blocked attempts to crack your ssh server.
+ 
 [1]: http://sites.inka.de/bigred/devel/tcp-tcp.html
