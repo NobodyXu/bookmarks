@@ -20,4 +20,6 @@
  
  It can list ssh server information.
  
+ 6. [Mitigating SSH based attacks – Top 15 Best SSH Security Practices](https://securitytrails.com/blog/mitigating-ssh-based-attacks-top-15-best-security-practices)
+ 
 [1]: http://sites.inka.de/bigred/devel/tcp-tcp.html
