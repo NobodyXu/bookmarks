@@ -12,5 +12,8 @@
 
  2. [ssh multiplexing](https://en.m.wikibooks.org/wiki/OpenSSH/Cookbook/Multiplexing)
  3. [scanssh - wikibooks](https://en.m.wikibooks.org/wiki/OpenSSH/Third_Party_Utilities#scanssh)
+ 4. [sshfp](https://en.m.wikibooks.org/wiki/OpenSSH/Third_Party_Utilities#sshfp)
+ 
+ Publish ssh fingerprint to DNS record, so that the identity of the ssh server can be confirmed.
  
 [1]: http://sites.inka.de/bigred/devel/tcp-tcp.html
