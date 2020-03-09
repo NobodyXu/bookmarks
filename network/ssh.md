@@ -10,23 +10,24 @@
  > connection from some program to the ssh client. The ssh client encrypts the data and send it through the TCP connection to
  > the server. The server decrypts it ans send it through the third TCP connection to a program at the other end. – kasperd
 
- 2. [ssh multiplexing](https://en.m.wikibooks.org/wiki/OpenSSH/Cookbook/Multiplexing)
- 3. [scanssh - wikibooks](https://en.m.wikibooks.org/wiki/OpenSSH/Third_Party_Utilities#scanssh)
- 4. [sshfp](https://en.m.wikibooks.org/wiki/OpenSSH/Third_Party_Utilities#sshfp)
+ 2. [best way to prevent brute force logons?](https://serverfault.com/a/594502/470539)
+ 3. [ssh multiplexing](https://en.m.wikibooks.org/wiki/OpenSSH/Cookbook/Multiplexing)
+ 4. [scanssh - wikibooks](https://en.m.wikibooks.org/wiki/OpenSSH/Third_Party_Utilities#scanssh)
+ 5. [sshfp](https://en.m.wikibooks.org/wiki/OpenSSH/Third_Party_Utilities#sshfp)
  
  Publish ssh fingerprint to DNS record, so that the identity of the ssh server can be confirmed.
  
- 5. [ssh-audit](https://github.com/arthepsy/ssh-audit)
+ 6. [ssh-audit](https://github.com/arthepsy/ssh-audit)
  
  It can list ssh server information.
  
- 6. [Mitigating SSH based attacks – Top 15 Best SSH Security Practices](https://securitytrails.com/blog/mitigating-ssh-based-attacks-top-15-best-security-practices)
+ 7. [Mitigating SSH based attacks – Top 15 Best SSH Security Practices](https://securitytrails.com/blog/mitigating-ssh-based-attacks-top-15-best-security-practices)
  
- 7. [sshguard](https://www.sshguard.net/)
+ 8. [sshguard](https://www.sshguard.net/)
  
  Automatically blocked attempts to crack your ssh server.
  
- 8. [sslh](http://www.rutschle.net/tech/sslh/README.html)
+ 9. [sslh](http://www.rutschle.net/tech/sslh/README.html)
  
  A protocol demultiplexer/switchboard that allows you to post:
  
