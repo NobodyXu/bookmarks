@@ -5,6 +5,10 @@
  1. [character type][1]
  2. [how to import csv file data into a postgresql table][3]
 
+#### Date And Time
+
+ 1. [Postgresql Interval, Date, Timestamp and Time Data Types][7]
+
 ### Management
 
  1. [Run a PostgreSQL .sql file using command line arguments][4]
@@ -18,3 +22,4 @@
 [4]: https://stackoverflow.com/questions/9736085/run-a-postgresql-sql-file-using-command-line-arguments
 [5]: https://superuser.com/questions/655399/calling-the-psql-command-without-selecting-any-database
 [6]: https://stackoverflow.com/a/55519761
+[7]: https://www.2ndquadrant.com/en/blog/know-what-time-it-is/
