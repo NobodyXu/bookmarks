@@ -5,6 +5,10 @@
  1. [character type][1]
  2. [how to import csv file data into a postgresql table][3]
 
+#### String
+
+ 1. [SQL Server CONCAT() Function][9]
+
 #### Date And Time
 
  1. [Postgresql Interval, Date, Timestamp and Time Data Types][7]
@@ -25,3 +29,4 @@
 [6]: https://stackoverflow.com/a/55519761
 [7]: https://www.2ndquadrant.com/en/blog/know-what-time-it-is/
 [8]: https://stackoverflow.com/questions/41412802/postgresql-query-for-hour-minutes-and-seconds
+[9]: https://www.w3schools.com/sql/func_sqlserver_concat.asp
