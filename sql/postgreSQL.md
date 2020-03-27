@@ -4,6 +4,7 @@
 
  1. [character type][1]
  2. [how to import csv file data into a postgresql table][3]
+ 3. [SQL: Use a calculated fields from the SELECT in the WHERE clause][12]
 
 #### String
 
@@ -34,3 +35,4 @@
 [9]: https://www.w3schools.com/sql/func_sqlserver_concat.asp
 [10]: https://stackoverflow.com/questions/952493/how-do-i-convert-an-interval-into-a-number-of-hours-with-postgres
 [11]: https://www.postgresqltutorial.com/postgresql-extract/
+[12]: https://stackoverflow.com/questions/8896829/sql-use-a-calculated-fields-from-the-select-in-the-where-clause
