@@ -8,6 +8,7 @@
 #### Date And Time
 
  1. [Postgresql Interval, Date, Timestamp and Time Data Types][7]
+ 2. [postgresql convert interval to readable hour minutes and seconds format][8]
 
 ### Management
 
@@ -23,3 +24,4 @@
 [5]: https://superuser.com/questions/655399/calling-the-psql-command-without-selecting-any-database
 [6]: https://stackoverflow.com/a/55519761
 [7]: https://www.2ndquadrant.com/en/blog/know-what-time-it-is/
+[8]: https://stackoverflow.com/questions/41412802/postgresql-query-for-hour-minutes-and-seconds
