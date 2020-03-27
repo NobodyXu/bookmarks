@@ -13,6 +13,7 @@
 
  1. [Postgresql Interval, Date, Timestamp and Time Data Types][7]
  2. [postgresql convert interval to readable hour minutes and seconds format][8]
+ 3. [How do I convert an interval into a number of hours with postgres?][10]
 
 ### Management
 
@@ -30,3 +31,4 @@
 [7]: https://www.2ndquadrant.com/en/blog/know-what-time-it-is/
 [8]: https://stackoverflow.com/questions/41412802/postgresql-query-for-hour-minutes-and-seconds
 [9]: https://www.w3schools.com/sql/func_sqlserver_concat.asp
+[10]: https://stackoverflow.com/questions/952493/how-do-i-convert-an-interval-into-a-number-of-hours-with-postgres
