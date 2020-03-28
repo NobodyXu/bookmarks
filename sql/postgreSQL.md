@@ -5,6 +5,7 @@
  1. [character type][1]
  2. [how to import csv file data into a postgresql table][3]
  3. [SQL: Use a calculated fields from the SELECT in the WHERE clause][12]
+ 4. [Category (factorial type from `R`) column in SQL][14]
 
 #### String
 
@@ -38,3 +39,4 @@
 [11]: https://www.postgresqltutorial.com/postgresql-extract/
 [12]: https://stackoverflow.com/questions/8896829/sql-use-a-calculated-fields-from-the-select-in-the-where-clause
 [13]: https://www.postgresql.org/docs/current/functions-datetime.html#FUNCTIONS-DATETIME-EXTRACT
+[14]: https://stackoverflow.com/questions/9599127/category-column-in-sql
