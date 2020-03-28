@@ -5,6 +5,7 @@
  1. [Chapter 8.Data Types][datatypes]
  2. [Arrays][arrays]
  3. [character type][1]
+ 4. [Composite Types][compositetypes]
  4. [how to import csv file data into a postgresql table][3]
  5. [SQL: Use a calculated fields from the SELECT in the WHERE clause][12]
  6. [Category (factorial type from `R`) column in SQL][14]
@@ -46,3 +47,4 @@
 [15]: https://stackoverflow.com/a/5397655/8375400
 [datatypes]: https://www.postgresql.org/docs/9.5/datatype.html
 [arrays]: https://www.postgresql.org/docs/9.5/arrays.html
+[compositetypes]: https://www.postgresql.org/docs/9.5/rowtypes.html
