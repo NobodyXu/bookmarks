@@ -1,7 +1,8 @@
 ## postgreSQL
 
 ### programming aspects
-
+ 
+ 1. [Chapter 8.Data Types][datatypes]
  1. [character type][1]
  2. [how to import csv file data into a postgresql table][3]
  3. [SQL: Use a calculated fields from the SELECT in the WHERE clause][12]
@@ -42,3 +43,4 @@
 [13]: https://www.postgresql.org/docs/current/functions-datetime.html#FUNCTIONS-DATETIME-EXTRACT
 [14]: https://stackoverflow.com/questions/9599127/category-column-in-sql
 [15]: https://stackoverflow.com/a/5397655/8375400
+[datatypes]: https://www.postgresql.org/docs/9.5/datatype.html
