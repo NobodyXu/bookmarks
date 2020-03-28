@@ -13,9 +13,10 @@
 #### Date And Time
 
  1. [Postgresql Interval, Date, Timestamp and Time Data Types][7]
- 2. [postgresql convert interval to readable hour minutes and seconds format][8]
- 3. [How do I convert an interval into a number of hours with postgres?][10]
- 4. [PostgreSQL EXTRACT Function][11]
+ 2. [postgresql official doc - 9.9. Date/Time Functions and Operators][13]
+ 3. [postgresql convert interval to readable hour minutes and seconds format][8]
+ 4. [How do I convert an interval into a number of hours with postgres?][10]
+ 5. [PostgreSQL EXTRACT Function][11]
 
 ### Management
 
@@ -36,3 +37,4 @@
 [10]: https://stackoverflow.com/questions/952493/how-do-i-convert-an-interval-into-a-number-of-hours-with-postgres
 [11]: https://www.postgresqltutorial.com/postgresql-extract/
 [12]: https://stackoverflow.com/questions/8896829/sql-use-a-calculated-fields-from-the-select-in-the-where-clause
+[13]: https://www.postgresql.org/docs/current/functions-datetime.html#FUNCTIONS-DATETIME-EXTRACT
