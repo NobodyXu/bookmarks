@@ -10,6 +10,7 @@
  5. [SQL: Use a calculated fields from the SELECT in the WHERE clause][12]
  6. [Category (factorial type from `R`) column in SQL][14]
  7. [Count of `true` values][15]
+ 8. [Representing Sparse Data in PostgreSQL][representing_sparse_data]
  
 #### String
 
@@ -48,3 +49,4 @@
 [datatypes]: https://www.postgresql.org/docs/9.5/datatype.html
 [arrays]: https://www.postgresql.org/docs/9.5/arrays.html
 [compositetypes]: https://www.postgresql.org/docs/9.5/rowtypes.html
+[representing_sparse_data]: https://stackoverflow.com/questions/2593250/representing-sparse-data-in-postgresql
