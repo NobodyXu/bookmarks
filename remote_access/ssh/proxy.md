@@ -10,3 +10,4 @@
 ### Forwarding
 
  1. [SSH/OpenSSH/PortForwarding](https://help.ubuntu.com/community/SSH/OpenSSH/PortForwarding)
+ 2. [How to cleanup SSH reverse tunnel socket after connection closed?](https://unix.stackexchange.com/questions/427189/how-to-cleanup-ssh-reverse-tunnel-socket-after-connection-closed)
