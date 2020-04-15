@@ -1,4 +1,10 @@
  1. [Key based SSH login that requires both key AND password](https://askubuntu.com/questions/1019999/key-based-ssh-login-that-requires-both-key-and-password)
+ 
+## Security
+
+### Restriction
+
+ 1. [Disable interactive shell](https://superuser.com/questions/830656/debian-linux-usr-bin-nologin-missing)
 
 ## Authentication
 
