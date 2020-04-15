@@ -11,3 +11,4 @@
 
  1. [SSH/OpenSSH/PortForwarding](https://help.ubuntu.com/community/SSH/OpenSSH/PortForwarding)
  2. [How to cleanup SSH reverse tunnel socket after connection closed?](https://unix.stackexchange.com/questions/427189/how-to-cleanup-ssh-reverse-tunnel-socket-after-connection-closed)
+ 3. [How do I change permissions on a ssh forwarded unix domain socket](https://serverfault.com/questions/948361/how-do-i-change-permissions-on-a-ssh-forwarded-unix-domain-socket)
