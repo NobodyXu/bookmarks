@@ -5,6 +5,7 @@
  5. [Working with Python arrays]
  6. [cdef classes]
  7. [Pure Python Mode]
+ 8. [cython tutorial]
  
 [cython compiler options]: https://cython.readthedocs.io/en/latest/src/userguide/source_files_and_compilation.html#compiler-options
 [Typed Memoryviews]: http://docs.cython.org/en/latest/src/userguide/memoryviews.html#memoryviews
@@ -13,3 +14,4 @@
 [Working with Python arrays]: https://cython.readthedocs.io/en/latest/src/tutorial/array.html
 [cdef classes]: https://cython.readthedocs.io/en/latest/src/tutorial/cdef_classes.html
 [Pure Python Mode]: https://cython.readthedocs.io/en/latest/src/tutorial/pure.html
+[cython tutorial]: https://cython.readthedocs.io/en/latest/src/tutorial/cython_tutorial.html
