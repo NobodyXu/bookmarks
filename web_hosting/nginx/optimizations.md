@@ -1,6 +1,6 @@
  1. [Nginx Tutorial #2: Performance]
 
-##3 Compression
+### Compression
  1. [Compression and Decompression]
  2. [What does vary:accept-encoding mean?]
  
