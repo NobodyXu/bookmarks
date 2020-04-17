@@ -7,6 +7,7 @@
  7. [Pure Python Mode]
  8. [cython tutorial]
  9. [Release GIL]
+ 10. [openmp auto-parallel]
  
 [cython compiler options]: https://cython.readthedocs.io/en/latest/src/userguide/source_files_and_compilation.html#compiler-options
 [Typed Memoryviews]: http://docs.cython.org/en/latest/src/userguide/memoryviews.html#memoryviews
@@ -17,3 +18,4 @@
 [Pure Python Mode]: https://cython.readthedocs.io/en/latest/src/tutorial/pure.html
 [cython tutorial]: https://cython.readthedocs.io/en/latest/src/tutorial/cython_tutorial.html
 [Release GIL]: https://cython.readthedocs.io/en/latest/src/userguide/external_C_code.html#nogil
+[openmp auto-parallel]: https://cython.readthedocs.io/en/latest/src/userguide/parallelism.html
