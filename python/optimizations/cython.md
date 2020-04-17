@@ -8,7 +8,9 @@
  8. [cython tutorial]
  9. [Release GIL]
  10. [openmp auto-parallel]
- 
+
+Fore more info, check [Users Guide].
+
 [cython compiler options]: https://cython.readthedocs.io/en/latest/src/userguide/source_files_and_compilation.html#compiler-options
 [Typed Memoryviews]: http://docs.cython.org/en/latest/src/userguide/memoryviews.html#memoryviews
 [Cython for Numpy users]: http://docs.cython.org/en/latest/src/userguide/numpy_tutorial.html
@@ -19,3 +21,4 @@
 [cython tutorial]: https://cython.readthedocs.io/en/latest/src/tutorial/cython_tutorial.html
 [Release GIL]: https://cython.readthedocs.io/en/latest/src/userguide/external_C_code.html#nogil
 [openmp auto-parallel]: https://cython.readthedocs.io/en/latest/src/userguide/parallelism.html
+[Users Guide]: https://cython.readthedocs.io/en/latest/src/userguide/index.html
