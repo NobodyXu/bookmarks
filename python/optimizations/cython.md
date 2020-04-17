@@ -11,6 +11,8 @@
 
 Fore more info, check [Users Guide].
 
+[Using C++ in Cython]
+
 [cython compiler options]: https://cython.readthedocs.io/en/latest/src/userguide/source_files_and_compilation.html#compiler-options
 [Typed Memoryviews]: http://docs.cython.org/en/latest/src/userguide/memoryviews.html#memoryviews
 [Cython for Numpy users]: http://docs.cython.org/en/latest/src/userguide/numpy_tutorial.html
@@ -22,3 +24,4 @@ Fore more info, check [Users Guide].
 [Release GIL]: https://cython.readthedocs.io/en/latest/src/userguide/external_C_code.html#nogil
 [openmp auto-parallel]: https://cython.readthedocs.io/en/latest/src/userguide/parallelism.html
 [Users Guide]: https://cython.readthedocs.io/en/latest/src/userguide/index.html
+[Using C++ in Cython]: https://cython.readthedocs.io/en/latest/src/userguide/wrapping_CPlusPlus.html
