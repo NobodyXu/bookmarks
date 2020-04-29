@@ -4,5 +4,7 @@
     ```
     printf("%zx", val);
     ```
+ 4. [left pad printf with spaces]
     
 [1]: https://en.wikipedia.org/wiki/C_data_types#inttypes.h
+[left pad printf with spaces]: https://stackoverflow.com/questions/293438/left-pad-printf-with-spaces
