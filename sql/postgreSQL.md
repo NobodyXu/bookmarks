@@ -30,6 +30,7 @@
  2. [How do I login and authenticate to Postgresql after a fresh install?][2]
  3. [Calling the psql command without selecting any database][5]
  4. [Import table dump (.sql) using pgAdmin][6]
+ 5. [Difference Between Schema and Database]
 
 [1]: https://www.postgresql.org/docs/9.1/datatype-character.html
 [2]: https://stackoverflow.com/questions/2172569/how-do-i-login-and-authenticate-to-postgresql-after-a-fresh-install
@@ -50,3 +51,4 @@
 [arrays]: https://www.postgresql.org/docs/9.5/arrays.html
 [compositetypes]: https://www.postgresql.org/docs/9.5/rowtypes.html
 [representing_sparse_data]: https://stackoverflow.com/questions/2593250/representing-sparse-data-in-postgresql
+[Difference Between Schema and Database]: https://techdifferences.com/difference-between-schema-and-database.html
