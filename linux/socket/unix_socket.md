@@ -15,9 +15,12 @@
  int sv[2];
  socketpair(AF_UNIX, SOCK_DGRAM, 0, sv);
  ```
+ 
+ 7. [What's the practical limit on the size of single packet transmitted over domain socket?][6]
 
 [1]: https://en.wikipedia.org/wiki/Unix_domain_socket
 [2]: https://unix.stackexchange.com/questions/283323/do-unix-domain-sockets-overflow
 [3]: https://stackoverflow.com/questions/13953912/difference-between-unix-domain-stream-and-datagram-sockets
 [4]: https://stackoverflow.com/questions/2358684/can-i-share-a-file-descriptor-to-another-process-on-linux-or-are-they-local-to-t
 [5]: https://stackoverflow.com/questions/14973942/tcp-loopback-connection-vs-unix-domain-socket-performance
+[6]: https://stackoverflow.com/questions/21856517/whats-the-practical-limit-on-the-size-of-single-packet-transmitted-over-domain
