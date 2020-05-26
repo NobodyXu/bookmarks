@@ -8,6 +8,7 @@
 ## Design Flaw
 
  1. [Epoll is fundamentally broken 1/2 for multithreaded app][7]
+ 2. [Epoll is fundamentally broken 2/2][8]
  
 [1]: https://stackoverflow.com/questions/12920243/if-a-file-is-readable-before-epoll-ctl-is-called-in-edge-triggered-mode-will-a
 [2]: https://stackoverflow.com/questions/21255784/whats-the-best-way-to-remove-fd-from-epoll-in-my-case
@@ -16,3 +17,4 @@
 [5]: https://stackoverflow.com/questions/41582560/how-does-epolls-epollexclusive-mode-interact-with-level-triggering
 [6]: https://stackoverflow.com/questions/52976152/tcp-when-is-epollhup-generated
 [7]: https://idea.popcount.org/2017-02-20-epoll-is-fundamentally-broken-12/
+[8]: https://idea.popcount.org/2017-03-20-epoll-is-fundamentally-broken-22/
