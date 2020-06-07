@@ -13,6 +13,7 @@
     $(DEPFILES):
     include $(wildcard $(DEPFILES))
     
+    # Disable implict pattern
     %.o : %.c
     %.o : %.c %.d
     $(CC) -c -o $@ $< $(CFLAGS) $(DEPFLAGS)
