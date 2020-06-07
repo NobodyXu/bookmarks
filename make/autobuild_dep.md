@@ -11,7 +11,6 @@
     DEPFILES := $(SRCS:%.c=%.d)
     
     $(DEPFILES):
-    server.d:
     include $(wildcard $(DEPFILES))
     
     %.o : %.c
