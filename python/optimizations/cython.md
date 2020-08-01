@@ -11,6 +11,8 @@
 
 Fore more info, check [Users Guide].
 
+[Build executable instead of c extension python module]
+
 [Using C++ in Cython]
 
 [cython compiler options]: https://cython.readthedocs.io/en/latest/src/userguide/source_files_and_compilation.html#compiler-options
@@ -25,3 +27,4 @@ Fore more info, check [Users Guide].
 [openmp auto-parallel]: https://cython.readthedocs.io/en/latest/src/userguide/parallelism.html
 [Users Guide]: https://cython.readthedocs.io/en/latest/src/userguide/index.html
 [Using C++ in Cython]: https://cython.readthedocs.io/en/latest/src/userguide/wrapping_CPlusPlus.html
+[Build executable instead of c extension python module]: https://stackoverflow.com/questions/22507592/making-an-executable-in-cython
