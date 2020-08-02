@@ -82,6 +82,10 @@
      return 0;
  }
  ```
+ 4. `XML_ParserReset(XML_Parser parser, const XML_Char *encoding)` can be used to reset `XML_Parser`
+ to a usable state after `XML_Parse(parser, buffer, size, 1 /* signature parsing is done */)`.
+ 
+ After reset, all handlers are cleared from the parser.
  
 [Using Expat]: https://www.xml.com/pub/a/1999/09/expat/index.html
 [Geting xml data using xml parser expat]: https://stackoverflow.com/questions/609376/geting-xml-data-using-xml-parser-expat
