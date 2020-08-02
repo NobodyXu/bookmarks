@@ -34,7 +34,7 @@
  
  int main(int argc, char* argv[])
  {
-     auto parser = XML_Parser_Ptr{XML_ParserCreate(nullptr)};
+     auto parser = XML_Parser_Ptr{XML_ParserCreate(nullptr /* optionally, you can set this param to "utf-8" or "utf-16" */)};
      if (!parser)
          errx(1, "Failed to create XML parser");
  
