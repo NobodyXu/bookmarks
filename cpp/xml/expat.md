@@ -66,6 +66,15 @@
      XML_SetCharacterDataHandler(parser.get(), 
      [](void *data, const XML_Char *s, int len) noexcept
      {
+         /**
+          * NOTE:
+          * 
+          * Some xml might contain '\n' character data
+          * - at the begining of a xml node with child node;
+          * - at the end of node.
+          * 
+          * Check https://www.speedtest.net/speedtest-config.php for example.
+          */
          std::fwrite(s, sizeof(XML_Char), len, stdout);
      });
  
