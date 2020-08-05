@@ -11,9 +11,10 @@
       - `__attribute__((__cleanup__(f)))`
       - `__builtin_return_address(n)`, for $n > 0$
       - `pthread_cleanup_push`, implemented in terms of `__attribute__((__cleanup__(f)))`
-
+ 2. [C compiler merge code option]
 
 [1]: https://stackoverflow.com/questions/39311872/is-performance-reduced-when-executing-loops-whose-uop-count-is-not-a-multiple-of
 [2]: https://stackoverflow.com/questions/44169342/can-x86s-mov-really-be-free-why-cant-i-reproduce-this-at-all/44193770#44193770
 [3]: https://stackoverflow.com/questions/40681331/how-are-x86-uops-scheduled-exactly
 [4]: https://software.intel.com/content/www/us/en/develop/articles/intel-sdm.html#optimization
+[C compiler merge code option]: https://stackoverflow.com/questions/25194738/do-c-compilers-de-duplicate-merge-code
