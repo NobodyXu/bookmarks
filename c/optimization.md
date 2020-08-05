@@ -15,6 +15,8 @@
  3. Pass `--icf=all` to linker merge any identical functions.
     Pass `--icf=safe` to linker only merge identical functions whose address are not taken.
  4. Pass `--gc-sections` to linker to remove unused sections.
+ 5. To use `-flto` with `-Oz`, you need to also pass `-Wl,--plugin-opt=O3`.
+ 6. Use of `-flto` can shrink size of generated binary.
  
 [1]: https://stackoverflow.com/questions/39311872/is-performance-reduced-when-executing-loops-whose-uop-count-is-not-a-multiple-of
 [2]: https://stackoverflow.com/questions/44169342/can-x86s-mov-really-be-free-why-cant-i-reproduce-this-at-all/44193770#44193770
