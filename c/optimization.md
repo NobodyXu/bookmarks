@@ -6,6 +6,12 @@
 ## Compiler flags
 
  1. `-fno-unwind-tables -fno-asynchronous-unwind-tables` for remving majority of `.eh_frame`.
+     This might break:
+      - `backtrace()`
+      - `__attribute__((__cleanup__(f)))`
+      - `__builtin_return_address(n)`, for $n > 0$
+      - `pthread_cleanup_push`, implemented in terms of `__attribute__((__cleanup__(f)))`
+
 
 [1]: https://stackoverflow.com/questions/39311872/is-performance-reduced-when-executing-loops-whose-uop-count-is-not-a-multiple-of
 [2]: https://stackoverflow.com/questions/44169342/can-x86s-mov-really-be-free-why-cant-i-reproduce-this-at-all/44193770#44193770
