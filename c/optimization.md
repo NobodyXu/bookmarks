@@ -12,6 +12,8 @@
       - `__builtin_return_address(n)`, for $n > 0$
       - `pthread_cleanup_push`, implemented in terms of `__attribute__((__cleanup__(f)))`
  2. [C compiler merge code option]
+ 3. Pass `--icf=all` to merge any identical functions.
+    Pass `--icf=safe` only merge identical functions whose address are not taken.
 
 [1]: https://stackoverflow.com/questions/39311872/is-performance-reduced-when-executing-loops-whose-uop-count-is-not-a-multiple-of
 [2]: https://stackoverflow.com/questions/44169342/can-x86s-mov-really-be-free-why-cant-i-reproduce-this-at-all/44193770#44193770
