@@ -4,3 +4,4 @@
  
 [fd Transfer over Unix Domain Sockets]: https://medium.com/@copyconstruct/file-descriptor-transfer-over-unix-domain-sockets-dcbbf5b3b6ec
 [fd transfer quirks]: https://gist.github.com/kentonv/bc7592af98c68ba2738f4436920868dc
+[fd tranfer Example]: https://man7.org/tlpi/code/online/dist/sockets/scm_rights_send.c.html
