@@ -20,6 +20,7 @@
 
 ## AutoFDO
  1. [Intro to AutoFDO](https://linuxplumbersconf.org/event/7/contributions/798/attachments/661/1214/LTO_PGO_and_AutoFDO_-_Plumbers_2020_-_Tolvanen_Wendling_Desaulniers.pdf)
+ 2. [google AutoFDO source](https://github.com/google/autofdo)
 
 [1]: https://stackoverflow.com/questions/39311872/is-performance-reduced-when-executing-loops-whose-uop-count-is-not-a-multiple-of
 [2]: https://stackoverflow.com/questions/44169342/can-x86s-mov-really-be-free-why-cant-i-reproduce-this-at-all/44193770#44193770
