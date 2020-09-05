@@ -1,1 +1,1 @@
- 1. [Bit slicing](https://en.m.wikipedia.org/wiki/Bit_slicing)
+ 1. [Bit slicing - Wikipedia](https://en.m.wikipedia.org/wiki/Bit_slicing)
