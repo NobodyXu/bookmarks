@@ -13,4 +13,5 @@
         - Allocate process local memory, removed from the direct map.
      - Google
         - Address Space Isolation - protects sensitive data
-        - Separate page table for domains of different privilege
+        - Separate page table for domains of different privilege, touching data out of domain caused page fault instead of speculation execution.
+        - Flushes L1 cache on `vm_exit()` and stun sibiling cores
