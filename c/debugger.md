@@ -1,3 +1,5 @@
  1. [GDB - Display output of target application in a separate window][1]
+ 2. [Core Dumps — How to enable them?][2]
  
 [1]: https://stackoverflow.com/questions/8963208/gdb-display-output-of-target-application-in-a-separate-window
+[2]: https://medium.com/@sourabhedake/core-dumps-how-to-enable-them-73856a437711
