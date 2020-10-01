@@ -29,3 +29,5 @@
     
     print("pts write blocked after {} bytes ({} KiB)".format(i, i//1024))
     ```
+ 
+ 2. [What are the responsibilities of each Pseudo-Terminal (PTY) component (software, master side, slave side)?](https://unix.stackexchange.com/questions/117981/what-are-the-responsibilities-of-each-pseudo-terminal-pty-component-software)
