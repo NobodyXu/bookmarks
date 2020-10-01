@@ -34,4 +34,4 @@
  3. [Session-Management on Linux](https://dvdhrm.wordpress.com/2013/08/24/session-management-on-linux/)
  4. [How VT-switching works](https://dvdhrm.wordpress.com/2013/08/24/how-vt-switching-works/)
  5. [Why use `-T` with ssh](https://stackoverflow.com/q/42505339/8375400)
- 6. [Sane Session-Switching](https://dvdhrm.wordpress.com/2013/08/25/sane-session-switching/#comment-576)
+ 6. [Sane Session-Switching](https://dvdhrm.wordpress.com/2013/08/25/sane-session-switching)
