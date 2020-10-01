@@ -32,3 +32,4 @@
  
  2. [What are the responsibilities of each Pseudo-Terminal (PTY) component (software, master side, slave side)?](https://unix.stackexchange.com/questions/117981/what-are-the-responsibilities-of-each-pseudo-terminal-pty-component-software)
  3. [Session-Management on Linux](https://dvdhrm.wordpress.com/2013/08/24/session-management-on-linux/)
+ 4. [How VT-switching works](https://dvdhrm.wordpress.com/2013/08/24/how-vt-switching-works/)
