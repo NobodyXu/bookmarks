@@ -27,10 +27,12 @@
 ### Management
 
  1. [Run a PostgreSQL .sql file using command line arguments][4]
- 2. [How do I login and authenticate to Postgresql after a fresh install?][2]
- 3. [Calling the psql command without selecting any database][5]
- 4. [Import table dump (.sql) using pgAdmin][6]
- 5. [Difference Between Schema and Database]
+ 2. [How to manage PostgreSQL databases and users from the command line][16]
+    NOTE that you need to specify `psql -d postgres` on login, otherwise it will prompt `database $username not found`.
+ 3. [How do I login and authenticate to Postgresql after a fresh install?][2]
+ 4. [Calling the psql command without selecting any database][5]
+ 5. [Import table dump (.sql) using pgAdmin][6]
+ 6. [Difference Between Schema and Database]
 
 [1]: https://www.postgresql.org/docs/9.1/datatype-character.html
 [2]: https://stackoverflow.com/questions/2172569/how-do-i-login-and-authenticate-to-postgresql-after-a-fresh-install
@@ -47,6 +49,8 @@
 [13]: https://www.postgresql.org/docs/current/functions-datetime.html#FUNCTIONS-DATETIME-EXTRACT
 [14]: https://stackoverflow.com/questions/9599127/category-column-in-sql
 [15]: https://stackoverflow.com/a/5397655/8375400
+[16]: https://www.a2hosting.com/kb/developer-corner/postgresql/managing-postgresql-databases-and-users-from-the-command-line#Creating-PostgreSQL-users?aid=1656214
+
 [datatypes]: https://www.postgresql.org/docs/9.5/datatype.html
 [arrays]: https://www.postgresql.org/docs/9.5/arrays.html
 [compositetypes]: https://www.postgresql.org/docs/9.5/rowtypes.html
