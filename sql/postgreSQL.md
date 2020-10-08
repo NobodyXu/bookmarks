@@ -28,7 +28,9 @@
 
  1. [Run a PostgreSQL .sql file using command line arguments][4]
  2. [How to manage PostgreSQL databases and users from the command line][16]
+    
     NOTE that you need to specify `psql -d postgres` on login, otherwise it will prompt `database $username not found`.
+    
  3. [How do I login and authenticate to Postgresql after a fresh install?][2]
  4. [Calling the psql command without selecting any database][5]
  5. [Import table dump (.sql) using pgAdmin][6]
