@@ -1,7 +1,7 @@
  1. Add the following file to `/usr/local/bin/start_jenkins.sh`:
     
     ```bash
-        #!/bin/bash
+    #!/bin/bash
     # /etc/init.d/jenkins
     # debian-compatible jenkins startup script.
     # Amelia A Lewis <alewis@ibco.com>
