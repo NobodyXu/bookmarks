@@ -135,3 +135,6 @@
     [Install]
     WantedBy=multi-user.target
     ```
+    
+ 4. Then `sudo systemctl enable jenkins.service` and `sudo systemctl start jenkins.service`.
+    Make sure it is started and running.
