@@ -44,6 +44,10 @@
           break;
         }
         sendfile on;
+      
+        add_header Cache-Control public;
+        add_header Pragma public;
+        add_header Vary Accept-Encoding;
       }
     
       location / {
