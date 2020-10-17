@@ -102,3 +102,36 @@
     export JENKINS_HOME=$JENKINS_HOME
     exec $JAVA $JAVA_ARGS -jar $JENKINS_WAR $JENKINS_ARGS
     ```
+
+ 2. `sudo systemctl stop jenkins.service` to stop the default service in `/etc/init.d/jenkins`.
+ 3. Add the following to `/etc/systemd/system/jenkins.service`:
+ 
+    ```systemd
+    [Unit]
+    Description=Jenkins Automation Server
+    After=network.target
+    Requires=network.target
+    
+    [Service]
+    Type=simple
+    
+    PIDFile=/var/run/jenkins/jenkins.pid
+    ExecStart=/usr/local/bin/start_jenkins.sh
+    
+    Restart=on-failure
+    RestartSec=20
+    
+    User=jenkins
+    Group=jenkins
+    NoNewPrivileges=yes
+    
+    ProtectSystem=full
+    ProtectHome=yes
+    PrivateTmp=true
+    PrivateDevices=true
+    ProtectKernelTunables=true
+    ProtectControlGroups=true
+    
+    [Install]
+    WantedBy=multi-user.target
+    ```
