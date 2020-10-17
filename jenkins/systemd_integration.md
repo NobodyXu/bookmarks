@@ -136,5 +136,12 @@
     WantedBy=multi-user.target
     ```
     
+    Advantage of systemd over the default `/etc/init.d/jenkins` is that
+     - no systemd user unit will be started for `jenkins` due to use of `su -l`
+     - no need for an extra idle process `daemon`
+     - `jenkins` is sandboxed: no new privilege (no `sudo`) and cannot modify `/usr`, `/boot`, `/etc` and cannot access `/home`, `/root`,
+       devices other than `/dev/zero`, `/dev/null`, `/dev/random`, access of kernel tunable and control groups are denied.
+     - `jenkins` will not share `/tmp/` with any other process. Instead, its `/tmp` will only be visible to itself and it cannot access global `/tmp`.
+    
  4. Then `sudo systemctl enable jenkins.service` and `sudo systemctl start jenkins.service`.
     Make sure it is started and running.
