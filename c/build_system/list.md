@@ -1,3 +1,3 @@
  1. [Ninja](https://ninja-build.org/manual.html#_introduction)
     
-    Capable of auto detecting header dependencies.
+    [Capable of auto detecting header dependencies](https://ninja-build.org/manual.html#ref_headers)
