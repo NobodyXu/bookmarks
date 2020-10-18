@@ -124,7 +124,6 @@
     User=jenkins
     Group=jenkins
     NoNewPrivileges=yes
-    SecureBits=noroot
     
     ProtectSystem=full
     ProtectHome=yes
