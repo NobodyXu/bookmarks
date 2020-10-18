@@ -131,6 +131,7 @@
     PrivateTmp=true
     PrivateDevices=true
     ProtectKernelTunables=true
+    ProtectKernelModules=true
     ProtectControlGroups=true
     
     [Install]
@@ -141,7 +142,7 @@
      - no systemd user unit will be started for `jenkins` due to use of `su -l`
      - no need for an extra idle process `daemon`
      - `jenkins` is sandboxed: no new privilege (no `sudo`) and cannot modify `/usr`, `/boot`, `/etc` and cannot access `/home`, `/root`,
-       devices other than `/dev/zero`, `/dev/null`, `/dev/random`, access of kernel tunable and control groups are denied.
+       devices other than `/dev/zero`, `/dev/null`, `/dev/random`, access of kernel tunable and control groups and explictly loading kernel modules are denied.
      - `jenkins` will not share `/tmp/` with any other process. Instead, its `/tmp` will only be visible to itself and it cannot access global `/tmp`.
     
  4. Then `sudo systemctl enable jenkins.service` and `sudo systemctl start jenkins.service`.
