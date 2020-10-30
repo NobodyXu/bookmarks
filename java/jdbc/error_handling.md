@@ -202,3 +202,5 @@
     | HZ | Remote database access                                    | 000 | No subclass                                                  |
     +----+-----------------------------------------------------------+-----+--------------------------------------------------------------+
     ```
+    
+    The data above is retrieved from [ISO - Database Language SQL](http://www.contrib.andrew.cmu.edu/~shadow/sql/sql1992.txt)
