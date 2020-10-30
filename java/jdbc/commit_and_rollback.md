@@ -1,0 +1,1 @@
+ 1. [JDBC: Does call to rollback() method have effect only if call to commit() method does not succeed?](https://stackoverflow.com/questions/15031866/jdbc-does-call-to-rollback-method-have-effect-only-if-call-to-commit-method)
