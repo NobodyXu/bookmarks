@@ -2,6 +2,8 @@
     
     TL;DR:
     
+    Use `String SQLException.getSQLState()` and check the return value against:
+    
     > - 02: no data
     > - 07: dynamic SQL error
     > - 08: connection exception
@@ -24,7 +26,7 @@
     > - 3D: invalid catalog name
     > - 3F: invalid schema name
     
-    Or this:
+    Or this, a more detailed description:
     
     ```
     +----+-----------------------------------------------------------+-----+--------------------------------------------------------------+
