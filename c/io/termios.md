@@ -11,3 +11,4 @@
     currOpts.c_cc[VTIME] = 1;
     ```
  2. [Move the cursor in a C program](https://stackoverflow.com/questions/33025599/move-the-cursor-in-a-c-program)
+ 3. [How to implement a timeout in read function call?](https://stackoverflow.com/a/2918103/8375400)
