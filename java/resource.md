@@ -2,4 +2,4 @@
     
     TL;DR:
     
-    `getResourceAsStream`
+    Use `getResourceAsStream` instead of `getResource`.
