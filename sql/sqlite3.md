@@ -1,5 +1,9 @@
  1. [How do I check in SQLite whether a table exists?]
  
+## Mechanism
+
+ 1. [Temporary Files Used By SQLite](https://sqlite.org/tempfiles.html)
+
 ## Extension
  1. [The Virtual Table Mechanism Of SQLite]
  2. [Virtual Table - osquery]
