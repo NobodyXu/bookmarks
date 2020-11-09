@@ -36,6 +36,9 @@
  5. [Import table dump (.sql) using pgAdmin][6]
  6. [Difference Between Schema and Database]
 
+### Extensions
+ 1. [pgcrypto for hashing user password](https://www.postgresql.org/docs/8.3/pgcrypto.html)
+
 [1]: https://www.postgresql.org/docs/9.1/datatype-character.html
 [2]: https://stackoverflow.com/questions/2172569/how-do-i-login-and-authenticate-to-postgresql-after-a-fresh-install
 [3]: https://stackoverflow.com/questions/2987433/how-to-import-csv-file-data-into-a-postgresql-table
