@@ -38,6 +38,7 @@
 
 ### Extensions
  1. [pgcrypto for hashing user password](https://www.postgresql.org/docs/8.3/pgcrypto.html)
+ 2. [How to use fuzzy string matching with Postgresql](https://www.freecodecamp.org/news/fuzzy-string-matching-with-postgresql/)
 
 [1]: https://www.postgresql.org/docs/9.1/datatype-character.html
 [2]: https://stackoverflow.com/questions/2172569/how-do-i-login-and-authenticate-to-postgresql-after-a-fresh-install
