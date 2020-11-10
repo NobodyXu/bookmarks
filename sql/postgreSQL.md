@@ -24,7 +24,7 @@
  4. [How do I convert an interval into a number of hours with postgres?][10]
  5. [PostgreSQL EXTRACT Function][11]
 
-#### index
+#### Index
 
  1. [11.9. Index-Only Scans and Covering Indexes](https://www.postgresql.org/docs/11/indexes-index-only-scans.html)
 
