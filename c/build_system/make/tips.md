@@ -1,11 +1,7 @@
 ## prebuild
 
-Adapted from [Pre-build step in makefile](https://stackoverflow.com/questions/1612278/pre-build-step-in-makefile):
+Adapted from [Force Makefile to execute script before building targets](https://stackoverflow.com/questions/2122602/force-makefile-to-execute-script-before-building-targets/41604044):
 
 ```makefile
-all: prebuild ...
-    # recipes ...
-
-prebuild:
-    # prebuild commands here
+prebuild_result = $(shell ...)
 ```
