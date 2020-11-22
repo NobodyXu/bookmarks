@@ -1,0 +1,1 @@
+ 1. [How does llvm know whether a member function pointer pointed to a virtual function?](https://stackoverflow.com/questions/49921575/how-does-llvm-know-whether-a-member-function-pointer-pointed-to-a-virtual-functi)
