@@ -3,3 +3,4 @@
     <br>[ridiculousfish/libdivide](https://github.com/ridiculousfish/libdivide)
  3. [libfixmath](https://code.google.com/archive/p/libfixmath/)
  4. [PetteriAimonen/libfixmatrix](https://github.com/PetteriAimonen/libfixmatrix)
+ 5. [Fixed-point_arithmetic Examples](https://en.wikipedia.org/wiki/Fixed-point_arithmetic#Software_application_examples)
