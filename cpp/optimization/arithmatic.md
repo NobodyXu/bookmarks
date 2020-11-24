@@ -2,3 +2,4 @@
  2. [libdivide is an open source library for optimizing integer division](https://libdivide.com)
     <br>[ridiculousfish/libdivide](https://github.com/ridiculousfish/libdivide)
  3. [libfixmath](https://code.google.com/archive/p/libfixmath/)
+ 4. [PetteriAimonen/libfixmatrix](https://github.com/PetteriAimonen/libfixmatrix)
