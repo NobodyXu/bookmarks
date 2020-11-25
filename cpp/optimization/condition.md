@@ -8,3 +8,4 @@
        modify memory.
      - `__attribute__((const))` for functions only depends on input arguments (not pointer dereferences).
      - `void * __attribute__((noinline)) get_pc () { return _builtin_return_address(0); }`
+ 4. [Implications of pure and constant functions](https://lwn.net/Articles/285332/)
