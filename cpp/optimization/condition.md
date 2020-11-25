@@ -4,6 +4,7 @@
     
     TIPs:
      - `__attribute__((flatten))` for inlining function calls in this function is possible.
-     - ` __attribute__((pure))` for functions only depends on input arguments and state of the memory (content of the pointers).
+     - ` __attribute__((pure))` for functions only depends on input arguments and state of the memory (content of the pointers) and cannot
+       modify global variables.
      - `__attribute__((const))` for functions only depends on input arguments (not pointer dereferences).
      - `void * __attribute__((noinline)) get_pc () { return _builtin_return_address(0); }`
