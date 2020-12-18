@@ -1,0 +1,1 @@
+ 1. [What is the best way to set a register to zero in x86 assembly: xor, mov or and?](https://stackoverflow.com/questions/33666617/what-is-the-best-way-to-set-a-register-to-zero-in-x86-assembly-xor-mov-or-and)
