@@ -6,3 +6,4 @@
     
     Disadvantage:
      - (IMHO) uses `std::function`
+     - Doesn't support fastcgi.
