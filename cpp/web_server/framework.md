@@ -2,7 +2,8 @@
     
     Advantage:
      - Has features just like `flask`
-     - Has good performance
+     - Support https
+     - Awesome performance
     
     Disadvantage:
      - (IMHO) uses `std::function`
