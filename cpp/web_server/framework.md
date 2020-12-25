@@ -14,7 +14,12 @@
  
     Advantage:
      - Have high level and low level API available.
-
+     - precompiled library available in ubuntu
+    
+    Disadvantage:
+     - Does not support HTTP2
+     - Does not have builtin compression support
+    
  3. [CrowCpp/crow](https://github.com/CrowCpp/crow)
     
     Advantage:
@@ -24,7 +29,7 @@
     
     Disadvantage:
      - Does not support fastcgi
-     - HTTP2 not yet supported
+     - HTTP2 not yet supported (in progress)
      - Does not have builtin compression support
 
 ## HTML template rendering framework: mustache
