@@ -47,6 +47,14 @@
      - much harder to use than [CrowCpp/crow]
      - has a lot dependencies
 
+ 5. [emweb/wt](https://github.com/emweb/wt)
+    
+    GPL2 licensed but has another paid private available.
+    
+    It depends on boost and optionally depends on openssl and etc.
+    
+    More complex than [CrowCpp/crow].
+    
 ## HTML template rendering framework: mustache
  1. Implementation in C++ [no1msd/mstch](https://github.com/no1msd/mstch)
 
