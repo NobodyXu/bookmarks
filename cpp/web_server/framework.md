@@ -60,6 +60,7 @@
     Have a set of low-level APIs but support fastcgi and SQL connection.
     
  7. [treefrogframework/treefrog-framework](https://github.com/treefrogframework/treefrog-framework)
+ 8. [civetweb/civetweb](https://github.com/civetweb/civetweb)
  
 ## HTML template rendering framework: mustache
  1. Implementation in C++ [no1msd/mstch](https://github.com/no1msd/mstch)
