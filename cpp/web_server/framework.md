@@ -18,7 +18,7 @@
     
     Advantage:
      - Sinlge-header-only library
-     - Good performance according to [REST-CPP-benchmark]
+     - Good performance according to [REST-CPP-benchmark] (better than [pistacheio/pistache]
 
 ## HTML template rendering framework: mustache
  1. Implementation in C++ [no1msd/mstch](https://github.com/no1msd/mstch)
