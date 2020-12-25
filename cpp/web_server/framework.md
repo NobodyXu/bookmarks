@@ -59,9 +59,17 @@
     
     Have a set of low-level APIs but support fastcgi and SQL connection.
     
+    GPL 3.0 licensed, C++ 11 code.
+    
+    I do not like the API.
+    
  7. [treefrogframework/treefrog-framework](https://github.com/treefrogframework/treefrog-framework)
  8. [civetweb/civetweb](https://github.com/civetweb/civetweb)
- 9. [artyom-beilis/cppcms](https://github.com/artyom-beilis/cppcms)
+ 9. [artyom-beilis/cppcms](https://github.com/artyom-beilis/cppcms)    
+ 
+ 10. [kristapsdz/kcgi](https://github.com/kristapsdz/kcgi)
+    
+    ISC license, provides a lot of C APIs.
  
 ## HTML template rendering framework: mustache
  1. Implementation in C++ [no1msd/mstch](https://github.com/no1msd/mstch)
