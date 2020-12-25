@@ -24,6 +24,7 @@
     
     Advantage:
      - Sinlge-header-only library
+     - Just depends on boost
      - Extremely easy to use with interfaces
      - Built in JSON support.
      - Mustache based templating library (crow::mustache).
