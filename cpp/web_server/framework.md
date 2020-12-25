@@ -9,7 +9,7 @@
      - (IMHO) uses `std::function`
      - Doesn't support fastcgi.
 
- 2. [pistacheio/pistache](https://github.com/pistacheio/pistache)
+ 2. [pistacheio/pistache]
  
     Advantage:
      - Have high level and low level API available.
@@ -18,9 +18,10 @@
     
     Advantage:
      - Sinlge-header-only library
-     - Good performance according to [REST-CPP-benchmark] (better than [pistacheio/pistache]
+     - Good performance according to [REST-CPP-benchmark] (better than [pistacheio/pistache])
 
 ## HTML template rendering framework: mustache
  1. Implementation in C++ [no1msd/mstch](https://github.com/no1msd/mstch)
 
 [REST-CPP-benchmark]: https://github.com/guteksan/REST-CPP-benchmark
+[pistacheio/pistache]: https://github.com/pistacheio/pistache
