@@ -25,6 +25,9 @@
     Advantage:
      - Sinlge-header-only library
      - Extremely easy to use with interfaces
+     - Built in JSON support.
+     - Mustache based templating library (crow::mustache).
+     - Middleware support for extensions.
      - Good performance according to [REST-CPP-benchmark] (better than [pistacheio/pistache])
     
     Disadvantage:
