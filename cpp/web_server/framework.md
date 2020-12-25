@@ -61,6 +61,7 @@
     
  7. [treefrogframework/treefrog-framework](https://github.com/treefrogframework/treefrog-framework)
  8. [civetweb/civetweb](https://github.com/civetweb/civetweb)
+ 9. [artyom-beilis/cppcms](https://github.com/artyom-beilis/cppcms)
  
 ## HTML template rendering framework: mustache
  1. Implementation in C++ [no1msd/mstch](https://github.com/no1msd/mstch)
