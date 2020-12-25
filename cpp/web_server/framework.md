@@ -15,5 +15,5 @@
      - Have high level and low level API available.
 
 
-## HTML template
- 1. [no1msd/mstch](https://github.com/no1msd/mstch)
+## HTML template rendering framework: mustache
+ 1. Implementation in C++ [no1msd/mstch](https://github.com/no1msd/mstch)
