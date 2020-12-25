@@ -57,7 +57,7 @@
     
  6. [eddic/fastcgipp](https://github.com/eddic/fastcgipp)
     
-    Have a set of low-level APIs but support fastcgi.
+    Have a set of low-level APIs but support fastcgi and SQL connection.
     
 ## HTML template rendering framework: mustache
  1. Implementation in C++ [no1msd/mstch](https://github.com/no1msd/mstch)
