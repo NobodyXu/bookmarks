@@ -69,7 +69,7 @@
  
  10. [kristapsdz/kcgi](https://github.com/kristapsdz/kcgi)
     
-    ISC license, provides a lot of C APIs.
+     ISC license, provides a lot of C APIs.
  
 ## HTML template rendering framework: mustache
  1. Implementation in C++ [no1msd/mstch](https://github.com/no1msd/mstch)
