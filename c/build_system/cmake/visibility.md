@@ -1,0 +1,1 @@
+ 1. [What is the CMake equivalent to “gcc -fvisibility=hidden” when controlling the exported symbol of a shared library?](https://stackoverflow.com/questions/17080869/what-is-the-cmake-equivalent-to-gcc-fvisibility-hidden-when-controlling-the-e)
