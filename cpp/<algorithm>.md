@@ -4,3 +4,4 @@
 
 ## dynamic programming
  1. [linyicheng1/motionPlan](https://github.com/linyicheng1/motionPlan)
+ 2. [route planner based on sampling](http://www.chenjianqu.com/show-137.html)
