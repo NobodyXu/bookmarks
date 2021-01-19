@@ -1,0 +1,1 @@
+ 1. [How can the rep stosb instruction execute faster than the equivalent loop?](https://stackoverflow.com/questions/33480999/how-can-the-rep-stosb-instruction-execute-faster-than-the-equivalent-loop)
