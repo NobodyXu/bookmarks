@@ -4,3 +4,4 @@
 
 ## Must-Read examples
  1. [Desktop System UI Example](https://doc.qt.io/QtApplicationManager/applicationmanager-applicationmanager-minidesk-example.html)
+ 2. ["Hello World!" System UI Example](https://doc.qt.io/QtApplicationManager/applicationmanager-applicationmanager-hello-world-example.html)
