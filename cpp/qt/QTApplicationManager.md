@@ -8,3 +8,5 @@
  3. [Application Features Example](https://doc.qt.io/QtApplicationManager/applicationmanager-applicationmanager-application-features-example.html)
     
     It contains how to execute C++ code as the entry point of Qt Application Manager.
+ 
+ 4. [Implement a Custom Application Manager Example](https://doc.qt.io/QtApplicationManager/applicationmanager-applicationmanager-custom-appman-example.html)
