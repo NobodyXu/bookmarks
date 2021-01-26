@@ -3,3 +3,5 @@
  3. [Synchronizing Threads](https://doc.qt.io/qt-5/threads-synchronizing.html)
     
     Queued signal can be used to synchronize call of functions.
+ 
+ 4. [Threads and QObjects](https://doc.qt.io/qt-5/threads-qobject.html)
