@@ -1,0 +1,1 @@
+ 1. [llvm Bugzilla - All Qt apps are silently built inoperable when compiled with clang using LTO ("signal not found")](https://bugs.llvm.org/show_bug.cgi?id=46469#c34)
