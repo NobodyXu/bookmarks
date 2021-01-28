@@ -7,3 +7,10 @@
     
     Note that initramfs must have `/dev/console`, eitherwise it won't be output anything at all.
  5. [Custom Initramfs](https://wiki.gentoo.org/wiki/Custom_Initramfs)
+    
+    Note that [Integrated initramfs does not always update](https://wiki.gentoo.org/wiki/Custom_Initramfs#Integrated_initramfs_does_not_always_update), and you can
+    use the following snippet to force update:
+    
+    ```
+    rm /usr/src/linux/usr/initramfs_data.cpio*
+    ```
