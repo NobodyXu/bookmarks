@@ -6,3 +6,4 @@
  4. [Embedding initramfs into the kernel](https://wiki.gentoo.org/wiki/Custom_Initramfs#Embedding_into_the_Kernel)
     
     Note that initramfs must have `/dev/console`, eitherwise it won't be output anything at all.
+ 5. [Custom Initramfs](https://wiki.gentoo.org/wiki/Custom_Initramfs)
