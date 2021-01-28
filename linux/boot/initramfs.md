@@ -4,3 +4,5 @@
     Note that your own initramfs can be compressed by `xz`, so don't just copy paste command.
  3. initramfs (in cpio format) can be xz-compressed, and it might be even smaller than xz-compressed squashfs as it doesn't support random access.
  4. [Embedding initramfs into the kernel](https://wiki.gentoo.org/wiki/Custom_Initramfs#Embedding_into_the_Kernel)
+    
+    Note that initramfs must have `/dev/console`, eitherwise it won't be output anything at all.
