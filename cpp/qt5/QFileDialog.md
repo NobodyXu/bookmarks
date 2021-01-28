@@ -2,18 +2,13 @@
     
     Two solution:
     
-    ```
-    connect(m_Fdialog,SIGNAL(currentChanged(QString)),SLOT(dirchanged(QString)));
-    
-    void Dialog::dirchanged(QString dir)
+    ```        
+    void dirchanged(QString dir)
     {
-         m_Fdialog->setDirectory("<your specific DIR path>");
+         if (dir out of scope)
+             m_Fdialog->setDirectory("<last/valid/dir/> or <your/specific/DIR/path>");
     }
-    ```
     
-    Or:
-    
-    ```
     QFileDialog dialog(this);
-    connect(&dialog, SIGNAL(directoryEntered(const QString &)), this, SLOT(onFileDialogDirectoryChanged(const QString &)));
+    connect(&dialog, &QFileDialog::directoryEntered, this, &dirChanged);
     ```
