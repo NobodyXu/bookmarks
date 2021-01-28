@@ -4,5 +4,6 @@
  4. [How to view all packages in some overlay?](https://unix.stackexchange.com/questions/57178/how-to-view-all-packages-in-some-overlay)
     
     ```
+    sudo eix-update # For updating eix packages information after layman -a
     eix --in-overlay <OVERLAY_NAME>
     ```
