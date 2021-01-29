@@ -30,3 +30,8 @@
        Do not copy symbol symbolname from the source file unless it is needed by a relocation.  This option may be given more than once.
      - `--strip-unneeded-symbol=symbolname`:
        Do not copy symbol symbolname from the source file unless it is needed by a relocation.  This option may be given more than once.
+ 3. [How to merge two “ar” static libraries into one?](https://stackoverflow.com/questions/3821916/how-to-merge-two-ar-static-libraries-into-one)
+    
+    ```
+    libtool --mode=link cc -static -o libaz.la libabc.la libxyz.la
+    ```
