@@ -24,3 +24,9 @@
        This option may be given more than once.
      - `-x` or `--discard-all`:
        Do not copy non-global symbols from the source file.
+     - `--strip-unneeded`:
+       Strip all symbols that are not needed for relocation processing.
+     - `--strip-unneeded-symbol=symbolname`:
+       Do not copy symbol symbolname from the source file unless it is needed by a relocation.  This option may be given more than once.
+     - `--strip-unneeded-symbol=symbolname`:
+       Do not copy symbol symbolname from the source file unless it is needed by a relocation.  This option may be given more than once.
