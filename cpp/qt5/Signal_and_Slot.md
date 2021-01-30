@@ -8,3 +8,4 @@ Queued signal can be used to synchronize call of functions.
 
 [Why Does Qt Use Moc for Signals and Slots?](https://doc.qt.io/qt-5/why-moc.html)
 
+[Differences between String-Based and Functor-Based Connections](https://doc.qt.io/qt-5/signalsandslots-syntaxes.html)
