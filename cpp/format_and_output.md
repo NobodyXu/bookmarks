@@ -17,7 +17,7 @@
     >   and [Converting a hundred million integers to strings per second](http://www.zverovich.net/2020/06/13/fast-int-to-string-revisited.html)
     > * Small code size both in terms of source code with the minimum configuration
     >   consisting of just three files, `core.h`, `format.h` and `format-inl.h`,
-    >   and compiled code; see pCompile time and code bloat](https://github.com/fmtlib/fmt/blob/master/README.rst#compile-time-and-code-bloat)
+    >   and compiled code; see [Compile time and code bloat](https://github.com/fmtlib/fmt/blob/master/README.rst#compile-time-and-code-bloat)
     > * Reliability: the library has an extensive set of [tests](https://github.com/fmtlib/fmt/tree/master/test) and is [continuously fuzzed](https://bugs.chromium.org/p/oss-fuzz/issues/list?colspec=ID%20Type%20Component%20Status%20Proj%20Reported%20Owner%20Summary&q=proj%3Dfmt&can=1)
     > * Safety: the library is fully type safe, errors in format strings can be
     >   reported at compile time, automatic memory management prevents buffer overflow
