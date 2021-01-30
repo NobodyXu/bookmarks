@@ -13,3 +13,5 @@ Queued signal can be used to synchronize call of functions.
 Reimplement moc using `libclang`.
 
 [Proof Of Concept: Re-implementing Qt moc using libclang](https://woboq.com/blog/moc-with-clang.html)
+
+[woboq/moc-ng](https://github.com/woboq/moc-ng)
