@@ -5,3 +5,4 @@
  5. [Timers](https://doc.qt.io/qt-5/timers.html)
  6. [Object Trees & Ownership](https://doc.qt.io/qt-5/objecttrees.html)
  7. [Creating Custom Qt Types](https://doc.qt.io/qt-5/custom-types.html)
+ 8. [How `QVariant` Works Internally?](https://stackoverflow.com/questions/4983819/how-qvariant-works-internally)
