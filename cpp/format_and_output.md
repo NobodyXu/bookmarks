@@ -5,7 +5,7 @@
     > 
     > * Simple [format API](https://fmt.dev/latest/api.html) with positional arguments
     >   for localization
-    > * Implementation of C++20 [`std::format`](https://en.cppreference.com/w/cpp/utility/format>)
+    > * Implementation of C++20 [`std::format`](https://en.cppreference.com/w/cpp/utility/format)
     > * [Format string syntax](https://fmt.dev/latest/syntax.html) similar to [Python's format](https://docs.python.org/3/library/stdtypes.html#str.format)
     > * Fast IEEE 754 floating-point formatter with correct rounding, shortness and
     >   round-trip guarantees
