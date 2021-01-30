@@ -32,7 +32,7 @@
     > * Optional header-only configuration enabled with the `FMT_HEADER_ONLY` macro
     > 
     > See the [documentation](https://fmt.dev) for more details.
- 2. [Compatibility with C++20 `std::format`](https://fmt.dev/dev/api.html#compatibility-with-c-20-std-format)
+ 2. [{fmt} Compatibility with C++20 `std::format`](https://fmt.dev/dev/api.html#compatibility-with-c-20-std-format)
     
     > {fmt} implements nearly all of the C++20 formatting library with the following differences:
     > 
