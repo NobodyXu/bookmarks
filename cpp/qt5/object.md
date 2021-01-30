@@ -4,3 +4,4 @@
  4. [Object Model](https://doc.qt.io/qt-5/object.html)
  5. [Timers](https://doc.qt.io/qt-5/timers.html)
  6. [Object Trees & Ownership](https://doc.qt.io/qt-5/objecttrees.html)
+ 7. [Creating Custom Qt Types](https://doc.qt.io/qt-5/custom-types.html)
