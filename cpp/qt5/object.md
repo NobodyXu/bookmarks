@@ -56,3 +56,4 @@
     ```
     
     This `struct Private` is `8 + 32 / 8` bytes long, which is 12 bytes in total.
+ 9. [How to Create Qt Plugins](https://doc.qt.io/qt-5/plugins-howto.html)
