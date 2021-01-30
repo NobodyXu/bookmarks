@@ -8,10 +8,3 @@ Queued signal can be used to synchronize call of functions.
 
 [Why Does Qt Use Moc for Signals and Slots?](https://doc.qt.io/qt-5/why-moc.html)
 
-## moc-ng
-
-Reimplement moc using `libclang`.
-
-[Proof Of Concept: Re-implementing Qt moc using libclang](https://woboq.com/blog/moc-with-clang.html)
-
-[woboq/moc-ng](https://github.com/woboq/moc-ng)
