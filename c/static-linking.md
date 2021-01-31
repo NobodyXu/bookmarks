@@ -35,3 +35,7 @@
     ```
     libtool --mode=link cc -static -o libaz.la libabc.la libxyz.la
     ```
+ 4. [Telling gcc directly to link a library statically](https://stackoverflow.com/questions/6578484/telling-gcc-directly-to-link-a-library-statically)
+    
+    > It is possible of course, use -l: instead of -l. For example -l:libXYZ.a to link with libXYZ.a. Notice the lib written out, as opposed to -lXYZ which would auto expand to libXYZ.
+
