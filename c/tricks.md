@@ -2,7 +2,7 @@
  2. [glibc version macros]
  3. [Using GNU extensions without warnings]
  4. [Return value of macro]
- 5. [function overloading with _Generic]
+ 5. [function overloading with `_Generic`]
  6. [Without access to `argv[0]`, how do I get the program name?](https://stackoverflow.com/a/38576559/8375400)
     
     ```
