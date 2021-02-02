@@ -15,3 +15,4 @@
      - vidir: edit a directory in your text editor
      - vipe: insert a text editor into a pipe
      - zrun: automatically uncompress arguments to command
+ 2. [core/coreutils](https://github.com/coreutils/coreutils)
