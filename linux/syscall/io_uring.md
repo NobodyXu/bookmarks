@@ -12,3 +12,6 @@
     > > That is, the interface that the user-space application sees is the same, though the backend is shared?
     > 
     > Correct, it behaves the exact same way.
+ 4. [axboe/liburing Any possibility to add io_uring_prep_sendfile? #173](https://github.com/axboe/liburing/issues/173)
+    
+    > It basically consist of a pipe, and setting the size of that to something that works for your use case. Then you splice data to it from a file (for example, or vmsplice() data from your address space), and then you splice from it to a socket.
