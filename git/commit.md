@@ -23,3 +23,9 @@
                 git commit-tree "$@";
         fi' HEAD
     ```
+ 3. [Squash my last X commits together using Git](https://stackoverflow.com/questions/5189560/squash-my-last-x-commits-together-using-git)
+    
+    TL;DR:
+    
+    `git rebase -i HEAD~{COMMITS TO BE SQUASHED}` or `git rebase -i {after this commit}` then replace `pickup` on the line corresponds to the commits to be 
+    squashed with `squash`.
