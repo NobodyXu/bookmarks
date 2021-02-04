@@ -18,7 +18,6 @@
  5. [axboe/liburing - io_uring is slower than epoll #189](https://github.com/axboe/liburing/issues/189)
  6. automatic buffer selection:
     
-    ```
            IORING_OP_PROVIDE_BUFFERS
               This command allows an application to register a group of buffers to be used by commands that read/receive data. Using buffers in this manner can eliminate the need  to  separate  the  poll  +
               read,  which  provides  a convenient point in time to allocate a buffer for a given request. It's often infeasible to have as many buffers available as pending reads or receive. With this fea‐
@@ -36,7 +35,5 @@
               ING_CQE_F_BUFFER set in the flags part of the struct, and the upper IORING_CQE_BUFFER_SHIFT bits will contain the ID of the selected buffers. This allows the application to know exactly  which
               buffer  was  selected  for  the  operation.  If no buffers are available and this flag is set, then the request will fail with -ENOBUFS as the error code. Once a buffer has been used, it is no
               longer available in the kernel pool. The application must re-register the given buffer again when it is ready to recycle it (eg has completed using it). Available since 5.7.
-
-   ```
    
    [io_uring support for automatic buffers](https://lwn.net/Articles/813311/)
