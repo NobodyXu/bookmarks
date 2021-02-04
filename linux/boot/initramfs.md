@@ -2,6 +2,8 @@
  2. [Guide for decompressing initramfs](https://superuser.com/questions/734124/need-to-uncompress-the-initramfs-file)
     
     Note that your own initramfs can be compressed by `xz`, so don't just copy paste command.
+    
+    Use `file` to determine the compression method first, decompress it and then use `cpio -id < <decompressed>`
  3. initramfs (in cpio format) can be xz-compressed, and it might be even smaller than xz-compressed squashfs as it doesn't support random access.
  4. [Embedding initramfs into the kernel](https://wiki.gentoo.org/wiki/Custom_Initramfs#Embedding_into_the_Kernel)
     
