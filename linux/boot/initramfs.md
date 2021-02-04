@@ -16,3 +16,4 @@
     ```
     rm /usr/src/linux/usr/initramfs_data.cpio*
     ```
+ 6. [Do I need to update initramfs on every kernel recompilation?](https://unix.stackexchange.com/questions/632617/do-i-need-to-update-initramfs-on-every-kernel-recompilation)
