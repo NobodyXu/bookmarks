@@ -17,3 +17,4 @@
     rm /usr/src/linux/usr/initramfs_data.cpio*
     ```
  6. [Do I need to update initramfs on every kernel recompilation?](https://unix.stackexchange.com/questions/632617/do-i-need-to-update-initramfs-on-every-kernel-recompilation)
+ 7. [Why `genkernel` decides to only include 4 modules in my `initramfs`?](https://unix.stackexchange.com/questions/632626/why-genkernel-decides-to-only-include-4-modules-in-my-initramfs)
