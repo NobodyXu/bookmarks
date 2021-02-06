@@ -3,3 +3,4 @@
  3. [Qt Overviews](https://doc.qt.io/qt-5/overviews-main.html)
  4. [Getting Started](https://doc.qt.io/qt-5/gettingstarted.html)
  5. [Qt Examples and Tutorials](https://doc.qt.io/qt-5/qtexamplesandtutorials.html)
+ 6. [Crash course in Qt for C++ developers, Part 1](https://www.cleanqt.io/blog/crash-course-in-qt-for-c%2B%2B-developers,-part-1)
