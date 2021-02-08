@@ -4,6 +4,6 @@
     TL;DR:
     
      - `getopt` (defined in `unistd.h`)
-     - `argp` (defined in `argp.h`)
+     - `argp` (defined in `argp.h`, included in GNU libc)
  
 [multiline literal]: https://jameshfisher.com/2016/11/30/c-multiline-literal/
