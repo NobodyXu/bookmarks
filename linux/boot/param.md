@@ -1,1 +1,3 @@
  1. [Passing parameter to builtin kernel module at compile time](https://stackoverflow.com/questions/22035110/passing-parameter-to-builtin-kernel-module-at-compile-time)
+    
+    > Since 2.6.28 or so (hope your kernel isn't older than that), the kernel supports setting a default command line at compile time via CONFIG_CMDLINE_BOOL ("Built-in kernel command line") and CONFIG_CMDLINE. You set CONFIG_CMDLINE_BOOL=y and then set CONFIG_CMDLINE to whatever you want in your kernel command line (for example, "bonding.max_bonds=50"). Any further command line options that your boot loader passes to the kernel are appended to the default command line you set in the kernel config.
