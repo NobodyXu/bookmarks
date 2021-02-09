@@ -34,3 +34,17 @@
     >    - Compilation for GPUs
     >    - Iterative compilation
     >    - Binary optimizations and runtime optimizations
+ 2. [Using Polly with Clang](https://bcain-llvm.readthedocs.io/projects/polly/en/latest/UsingPollyWithClang/)
+    
+    TL;DR:
+    
+    Basic usage:
+    
+    ```
+    # Polly requires optimization in -O3 to work
+    clang -O3 -mllvm -polly file.c
+    ```
+    
+    To enable automatic OpenMP code generation, add `-mllvm -polly-parallel -lgomp` to command above.
+    
+    To enable vector code generation, add `-mllvm -polly-vectorizer=stripmine` to command above.
