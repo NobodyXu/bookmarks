@@ -25,3 +25,4 @@
     initramfs is created and mounted as an empty filesystem, then populate it with the content of cpio archive.
     
     To make it rdonly, use `mount -o remount,ro /`.
+ 9. [linux source code `populate_rootfs`](https://elixir.bootlin.com/linux/latest/source/init/initramfs.c#L605)
