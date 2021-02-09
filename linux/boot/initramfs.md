@@ -18,3 +18,10 @@
     ```
  6. [Do I need to update initramfs on every kernel recompilation?](https://unix.stackexchange.com/questions/632617/do-i-need-to-update-initramfs-on-every-kernel-recompilation)
  7. [Why `genkernel` decides to only include 4 modules in my `initramfs`?](https://unix.stackexchange.com/questions/632626/why-genkernel-decides-to-only-include-4-modules-in-my-initramfs)
+ 8. [Read only Initramfs Linux system](https://stackoverflow.com/questions/43891240/read-only-initramfs-linux-system)
+    
+    TL;DR:
+    
+    initramfs is created and mounted as an empty filesystem, then populate it with the content of cpio archive.
+    
+    To make it rdonly, use `mount -o remount,ro /`.
