@@ -2,4 +2,5 @@
  2. [Conventions](https://developer.gnome.org/gobject/stable/gtype-conventions.html)
  3. [Instantiable classed types: objects](https://developer.gnome.org/gobject/stable/gtype-instantiable-classed.html)
  4. [Signals](https://developer.gnome.org/gobject/stable/gobject-Signals.html)
- 5. [How to define and implement a new GObject](https://developer.gnome.org/gobject/stable/howto-gobject.html)
+ 5. [How to define and implement a new GObject - gnome](https://developer.gnome.org/gobject/stable/howto-gobject.html)
+ 6. [How to define and implement a new GObject - freedesktop](https://www.freedesktop.org/software/gstreamer-sdk/data/docs/latest/gobject/howto-gobject.html)
