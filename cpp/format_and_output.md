@@ -59,7 +59,7 @@
          * Console logging (colors supported).
          * syslog.
          * Windows debugger (```OutputDebugString(..)```)
-         * Easily extendable with custom log targets  (just implement a single function in the [sink](include/spdlog/sinks/sink.h) interface).
+         * Easily extendable with custom log targets  (just implement a single function in the [sink](https://github.com/gabime/spdlog/include/spdlog/sinks/sink.h) interface).
      * Log filtering - log levels can be modified in runtime as well as in compile time.
      * Support for loading log levels from argv or from environment var.
-     * [Backtrace](#backtrace-support) support - store debug messages in a ring buffer and display later on demand.
+     * [Backtrace](https://github.com/gabime/spdlog#backtrace-support) support - store debug messages in a ring buffer and display later on demand.
