@@ -44,22 +44,22 @@
     This file contains functions/classes responsible for parsing format string at compile time.
  4. [gabime/spdlog](https://github.com/gabime/spdlog)
     
-    Very fast, header-only/compiled, C++ logging library.
-    
-    Features:
-     * Very fast (see [benchmarks](#benchmarks) below).
-     * Headers only or compiled
-     * Feature rich formatting, using the excellent [fmt](https://github.com/fmtlib/fmt) library.
-     * Asynchronous mode (optional)
-     * [Custom](https://github.com/gabime/spdlog/wiki/3.-Custom-formatting) formatting.
-     * Multi/Single threaded loggers.
-     * Various log targets:
-         * Rotating log files.
-         * Daily log files.
-         * Console logging (colors supported).
-         * syslog.
-         * Windows debugger (```OutputDebugString(..)```)
-         * Easily extendable with custom log targets  (just implement a single function in the [sink](https://github.com/gabime/spdlog/blob/master/include/spdlog/sinks/sink.h) interface).
-     * Log filtering - log levels can be modified in runtime as well as in compile time.
-     * Support for loading log levels from argv or from environment var.
-     * [Backtrace](https://github.com/gabime/spdlog#backtrace-support) support - store debug messages in a ring buffer and display later on demand.
+    > Very fast, header-only/compiled, C++ logging library.
+    > 
+    > Features:
+    >  * Very fast (see [benchmarks](https://github.com/gabime/spdlog/tree/master#benchmarks) below).
+    >  * Headers only or compiled
+    >  * Feature rich formatting, using the excellent [fmt](https://github.com/fmtlib/fmt) library.
+    >  * Asynchronous mode (optional)
+    >  * [Custom](https://github.com/gabime/spdlog/wiki/3.-Custom-formatting) formatting.
+    >  * Multi/Single threaded loggers.
+    >  * Various log targets:
+    >      * Rotating log files.
+    >      * Daily log files.
+    >      * Console logging (colors supported).
+    >      * syslog.
+    >      * Windows debugger (```OutputDebugString(..)```)
+    >      * Easily extendable with custom log targets  (just implement a single function in the [sink](https://github.com/gabime/spdlog/blob/master/include/spdlog/sinks/sink.h) interface).
+    >  * Log filtering - log levels can be modified in runtime as well as in compile time.
+    >  * Support for loading log levels from argv or from environment var.
+    >  * [Backtrace](https://github.com/gabime/spdlog#backtrace-support) support - store debug messages in a ring buffer and display later on demand.
