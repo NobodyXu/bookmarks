@@ -29,3 +29,10 @@
     
     `git rebase -i HEAD~{COMMITS TO BE SQUASHED}` or `git rebase -i {after this commit}` then replace `pickup` on the line corresponds to the commits to be 
     squashed with `squash`.
+ 4. [Can you GPG sign old commits?](https://superuser.com/questions/397149/can-you-gpg-sign-old-commits)
+    
+    TL;DR:
+    
+    ```
+    git rebase --exec 'git commit --no-edit --amend -s -S<keyid>' -i <branch/commit>
+    ```
