@@ -36,3 +36,5 @@
     ```
     git rebase --exec 'git commit --no-edit --amend -s -S<keyid>' -i <branch/commit>
     ```
+    
+    Remember to remove the first `noop` is the editor.
