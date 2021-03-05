@@ -35,6 +35,15 @@
     
     Use `sudo iptables -L` to verify that your rules are indeed saved.
     
+    Reference:
+     - [How to configure iptables on Ubuntu](https://upcloud.com/community/tutorials/configure-iptables-ubuntu/)
+       
+       This guide here made a **serious mistake**: it will block your access to internet from server, i.e. `ping` and `curl` all fail.
+       
+       Check the guide below to understand how to fix this.
+       
+     - [No client internet access when setting up these iptables rules](https://askubuntu.com/questions/79525/no-client-internet-access-when-setting-up-these-iptables-rules)
+    
  2. [iptables persistent]
  
 [iptables persistent]: https://unix.stackexchange.com/a/52522
