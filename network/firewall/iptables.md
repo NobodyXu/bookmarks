@@ -30,6 +30,7 @@
     ```
     
     During installation, it will prompt you on whether to save current `iptables` configuration, select 'yes'.
+    It will then save rules to `/etc/iptables`, and you can use `iptables-save` to update them.
     
     Now restart your server and `ssh` into it.
     
