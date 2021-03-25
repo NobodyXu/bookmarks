@@ -1,0 +1,1 @@
+ - `sudo genlop -it <package>` shows the emerge time for the package

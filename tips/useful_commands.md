@@ -1,0 +1,7 @@
+ - `wl-copy`
+ - `pmap [pid] | tail -n +2 | head -n -1 | sort -k 2n`
+ - `strace -p [pid]`
+ - `eject device|mountpoint`
+ - `git remote prune <remote_name>`: prune branches deleted at remote
+ - `eclean` for cleaning $DIST and $PKGDIR
+ - `eclean-dist` for cleaning /var/cache/distfiles/

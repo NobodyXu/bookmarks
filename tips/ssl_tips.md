@@ -1,0 +1,1 @@
+ - test your SSL configuration at https://www.ssllabs.com/ssltest/
