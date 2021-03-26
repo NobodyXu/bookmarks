@@ -1,0 +1,2 @@
+ - '-q' option can be used to only show difference
+ - '-r' option can be used to compare two directories.
