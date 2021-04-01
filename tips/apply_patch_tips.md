@@ -1,0 +1,1 @@
+ - `patch -p1 </path/to/linux/kernel/patch` for appling linux-kernel patch
