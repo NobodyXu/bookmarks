@@ -1,0 +1,1 @@
+ - `git pull --rebase <upstream> main` would rebase the current branch with `<upstream>` master
