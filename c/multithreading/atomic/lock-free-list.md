@@ -19,6 +19,8 @@
     
     **Only one critical section per thread can be active at any time**.
     
+    **Limitation: if you single-step through a critical section in the debugger, the program will loop forever.**
+    
     `rsq()` can speedup CPU id retrieving, thus speedup access of per-cpu data.
     
     It can also benefit atomic data structure as it makes the CPU scheduler transparent to the process.
