@@ -8,6 +8,7 @@
  1. [Read-copy-update, Wikipedia]
  2. [What is RCU, Fundanmentally?]
  3. [Linux Restartable Sequences](https://www.efficios.com/blog/2019/02/08/linux-restartable-sequences/)
+    
     [compudj/librseq](https://github.com/compudj/librseq)
     
     TL;DR:
