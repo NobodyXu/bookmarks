@@ -21,6 +21,8 @@
     
     **Only one critical section per thread can be active at any time**.
     
+    **Restartable sequences must not perform system calls. Doing so may result in termination of the process by a segmentation fault.**
+    
     **Limitation: if you single-step through a critical section in the debugger, the program will loop forever.**
     
     `rsq()` can speedup CPU id retrieving, thus speedup access of per-cpu data.
