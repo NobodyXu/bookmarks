@@ -36,6 +36,8 @@
     the data is freed.
     <br>Using `rsq` + atomic counter fixes this problem, as any thread that preempts can be reset to the previous data it is visiting.
     <br>This is appliable to atomic list and atomic hashmap.
+    
+ 4. [Userspace RCU](https://liburcu.org/)
 
 [Simple lock free stack c++11]: https://stackoverflow.com/questions/26747265/simple-lock-free-stack-c11
 [ABA problem, Wikipedia]: https://en.wikipedia.org/wiki/ABA_problem
