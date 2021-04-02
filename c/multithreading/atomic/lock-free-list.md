@@ -13,6 +13,8 @@
     
     [compudj/librseq man page](https://github.com/compudj/librseq/blob/master/doc/man/rseq.2)
     
+    [torvalds/linux/kernel/rseq.c](https://github.com/torvalds/linux/blob/master/kernel/rseq.c)
+    
     TL;DR:
     
     This allows situations where:
