@@ -11,6 +11,8 @@
     
     [compudj/librseq](https://github.com/compudj/librseq)
     
+    [compudj/librseq man page](https://github.com/compudj/librseq/blob/master/doc/man/rseq.2)
+    
     TL;DR:
     
     This allows situations where:
