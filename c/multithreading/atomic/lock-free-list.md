@@ -26,6 +26,12 @@
     `rsq()` can speedup CPU id retrieving, thus speedup access of per-cpu data.
     
     It can also benefit atomic data structure as it makes the CPU scheduler transparent to the process.
+    
+    For example, when implementing delete operation for an atomic container, how do you ensure others won't visit the already deleted data?
+    <br>Using atomic counter that frees the data when it reached 0 won't fix the problemm since some threads might be preempted and later resumed after 
+    the data is freed.
+    <br>Using `rsq` + atomic counter fixes this problem, as any thread that preempts can be reset to the previous data it is visiting.
+    <br>This is appliable to atomic list and atomic hashmap.
 
 [Simple lock free stack c++11]: https://stackoverflow.com/questions/26747265/simple-lock-free-stack-c11
 [ABA problem, Wikipedia]: https://en.wikipedia.org/wiki/ABA_problem
