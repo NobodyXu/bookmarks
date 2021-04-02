@@ -17,7 +17,7 @@
      - The thread is preempted
     to be detected by the thread and quickly restart the critical section.
     
-    **Only one critical section can be active at any time**.
+    **Only one critical section per thread can be active at any time**.
 
 [Simple lock free stack c++11]: https://stackoverflow.com/questions/26747265/simple-lock-free-stack-c11
 [ABA problem, Wikipedia]: https://en.wikipedia.org/wiki/ABA_problem
