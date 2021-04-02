@@ -1,1 +1,2 @@
  - `git pull --rebase <upstream> main` would rebase the current branch with `<upstream>` master
+ - `git bundle create path/to/bundle/to/create --all` for creating a bundle out of git repo
