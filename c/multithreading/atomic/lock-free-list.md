@@ -18,6 +18,10 @@
     to be detected by the thread and quickly restart the critical section.
     
     **Only one critical section per thread can be active at any time**.
+    
+    `rsq()` can speedup CPU id retrieving, thus speedup access of per-cpu data.
+    
+    It can also benefit atomic data structure as it makes the CPU scheduler transparent to the process.
 
 [Simple lock free stack c++11]: https://stackoverflow.com/questions/26747265/simple-lock-free-stack-c11
 [ABA problem, Wikipedia]: https://en.wikipedia.org/wiki/ABA_problem
