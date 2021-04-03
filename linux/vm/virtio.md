@@ -1,5 +1,6 @@
  1. [Introduction to virtio-networking and vhost-net](https://www.redhat.com/en/blog/introduction-virtio-networking-and-vhost-net)
-
+ 2. [Open vSwitch intro](https://docs.openvswitch.org/en/latest/intro/what-is-ovs/)
+ 
 ## io_uring and virtio
 
 Proposals for using io_uring in virtio:
