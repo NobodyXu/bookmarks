@@ -1,0 +1,1 @@
+ - `ctags --recurse=yes /path/to/dir`
