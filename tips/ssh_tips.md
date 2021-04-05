@@ -1,0 +1,1 @@
+ - If after ssh, `tmux` failed due to `unsuitable $TERM (alacrity or etc)`, set `export TERM=screen-256color`
