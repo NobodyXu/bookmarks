@@ -13,6 +13,10 @@
     
     SQLean: all the missing SQLite functions
     
+ 6. [dpapathanasiou/simple-graph](https://github.com/dpapathanasiou/simple-graph)
+    
+    This is a simple graph database in SQLite, inspired by "SQLite as a document database"
+    
 [How do I check in SQLite whether a table exists?]: https://stackoverflow.com/questions/1601151/how-do-i-check-in-sqlite-whether-a-table-exists
 [The Virtual Table Mechanism Of SQLite]: https://www.sqlite.org/vtab.html
 [Virtual Table - osquery]: https://github.com/osquery/osquery
