@@ -7,6 +7,7 @@
  7. [C++ coroutines: Making the promise itself be the shared state, the inspiration](
 https://devblogs.microsoft.com/oldnewthing/20210402-00/?p=105047)
  8. [C++ coroutines: Making the promise itself be the shared state, the outline](https://devblogs.microsoft.com/oldnewthing/20210405-18/?p=105054)
-
+ 9. [C++ coroutines: Building a result holder for movable types](
+https://devblogs.microsoft.com/oldnewthing/20210406-00/?p=105057)
 
 [C++ Coroutines: Understanding operator co_await]: https://lewissbaker.github.io/2017/11/17/understanding-operator-co-await
