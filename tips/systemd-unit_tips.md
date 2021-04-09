@@ -30,4 +30,4 @@
    ```
 
    If the exe and config is not stored in home, then `User=<user>` can be replaced with 
-   `DynamicUser=true`.
+   `DynamicUser=true` and `ProtectHome` can be set to `true`.
