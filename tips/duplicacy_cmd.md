@@ -5,3 +5,31 @@
    <br>This is due to the firewall deployed in server farms rate limit ssh connection and shut them down if they takes too much resources,
    <br>and if frequent TCP handshake is sent to the ssh port, it will classify them as DDOS and further rate-limit them.
  - save passwd: https://forum.duplicacy.com/t/passwords-credentials-and-environment-variables/1094
+ - [Copy data between different storages efficiently, without the client as a bottlenect](https://forum.duplicacy.com/t/back-up-to-multiple-storages/1075)
+   
+   TL;DR:
+
+   ```
+   # log in to your local storage server
+   mkdir -p \path\to\dummy\repository
+   cd \path\to\dummy\repository
+   duplicacy init repository_id onsite_storage_url
+   duplicacy add -copy default offsite_storage --bit-identical repository_id offsite_storage_url
+   duplicacy copy -from default -to offsite_storage
+   ```
+
+   By using `copy` on the server, the data flows from local_server -> router -> offsite_storage.
+
+   if the offsite_storage are also on the local_server, i.e., migrate SFTP to minio, then data flows from 
+
+   ```
+   local_disk ->
+   kernel ->
+   duplicacy ->
+   kernel (linux kernel would transfer 127.0.0.1 efficiently, without passing to network stack at all) ->
+   minio ->
+   kernel ->
+   local_disk
+   ```
+
+   Since the data doesn't leave the machine, there is also no need to use TLS or any encryption.
