@@ -10,5 +10,6 @@ https://devblogs.microsoft.com/oldnewthing/20210402-00/?p=105047)
  9. [C++ coroutines: Building a result holder for movable types](
 https://devblogs.microsoft.com/oldnewthing/20210406-00/?p=105057)
  10. [C++ coroutines: Accepting types via return_void and return_value](https://devblogs.microsoft.com/oldnewthing/20210407-00/?p=105061)
-
+ 11. [C++ coroutines: Awaiting the simple_task](https://devblogs.microsoft.com/oldnewthing/20210408-00/?p=105063)
+ 
 [C++ Coroutines: Understanding operator co_await]: https://lewissbaker.github.io/2017/11/17/understanding-operator-co-await
