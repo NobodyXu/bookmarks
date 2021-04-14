@@ -12,7 +12,7 @@ https://devblogs.microsoft.com/oldnewthing/20210406-00/?p=105057)
  10. [C++ coroutines: Accepting types via return_void and return_value](https://devblogs.microsoft.com/oldnewthing/20210407-00/?p=105061)
  11. [C++ coroutines: Awaiting the simple_task](https://devblogs.microsoft.com/oldnewthing/20210408-00/?p=105063)
  12. [C++ coroutines: Managing the reference count of the coroutine state](https://devblogs.microsoft.com/oldnewthing/20210409-00/?p=105065)
-
-
+ 13. [C++ coroutines: The lifetime of objects involved in the coroutine function](
+https://devblogs.microsoft.com/oldnewthing/20210412-00/?p=105078)
 
 [C++ Coroutines: Understanding operator co_await]: https://lewissbaker.github.io/2017/11/17/understanding-operator-co-await
