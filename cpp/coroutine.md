@@ -14,5 +14,6 @@ https://devblogs.microsoft.com/oldnewthing/20210406-00/?p=105057)
  12. [C++ coroutines: Managing the reference count of the coroutine state](https://devblogs.microsoft.com/oldnewthing/20210409-00/?p=105065)
  13. [C++ coroutines: The lifetime of objects involved in the coroutine function](
 https://devblogs.microsoft.com/oldnewthing/20210412-00/?p=105078)
+ 14. [C++ coroutines: Tradeoffs of making the promise be the shared state](https://devblogs.microsoft.com/oldnewthing/20210413-00/?p=105093)
 
 [C++ Coroutines: Understanding operator co_await]: https://lewissbaker.github.io/2017/11/17/understanding-operator-co-await
