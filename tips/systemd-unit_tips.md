@@ -38,3 +38,11 @@
    In the service, you can use `%i` to refer to the argument passed to the template.
 
    To actually enable an instance of this template, use `sudo systemctl enable name@param`, where `param` will be passed to `%i`.
+ - Remember to add:
+   
+   ```
+   After=network-online.target
+   Wants=network-online.target
+   ```
+
+   to `[Unit]` if your service depends on network
