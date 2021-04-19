@@ -15,5 +15,6 @@ https://devblogs.microsoft.com/oldnewthing/20210406-00/?p=105057)
  13. [C++ coroutines: The lifetime of objects involved in the coroutine function](
 https://devblogs.microsoft.com/oldnewthing/20210412-00/?p=105078)
  14. [C++ coroutines: Tradeoffs of making the promise be the shared state](https://devblogs.microsoft.com/oldnewthing/20210413-00/?p=105093)
+ 15. [C++ coroutines: Making it impossible to co_await a task twice](https://devblogs.microsoft.com/oldnewthing/20210414-00/?p=105095)
 
 [C++ Coroutines: Understanding operator co_await]: https://lewissbaker.github.io/2017/11/17/understanding-operator-co-await
