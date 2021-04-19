@@ -16,5 +16,6 @@ https://devblogs.microsoft.com/oldnewthing/20210406-00/?p=105057)
 https://devblogs.microsoft.com/oldnewthing/20210412-00/?p=105078)
  14. [C++ coroutines: Tradeoffs of making the promise be the shared state](https://devblogs.microsoft.com/oldnewthing/20210413-00/?p=105093)
  15. [C++ coroutines: Making it impossible to co_await a task twice](https://devblogs.microsoft.com/oldnewthing/20210414-00/?p=105095)
+ 16. [C++ coroutines: Getting rid of our mutex](https://devblogs.microsoft.com/oldnewthing/20210415-00/?p=105109)
 
 [C++ Coroutines: Understanding operator co_await]: https://lewissbaker.github.io/2017/11/17/understanding-operator-co-await
