@@ -19,5 +19,6 @@ https://devblogs.microsoft.com/oldnewthing/20210412-00/?p=105078)
  16. [C++ coroutines: Getting rid of our mutex](https://devblogs.microsoft.com/oldnewthing/20210415-00/?p=105109)
  17. [C++ coroutines: Getting rid of our reference count](https://devblogs.microsoft.com/oldnewthing/20210416-00/?p=105115)
  18. [C++ coroutines: Getting rid of our atomic variant discriminator](https://devblogs.microsoft.com/oldnewthing/20210420-28/?p=105128)
+ 19. [C++ coroutines: Cold-start coroutines](https://devblogs.microsoft.com/oldnewthing/20210421-00/?p=105135)
 
 [C++ Coroutines: Understanding operator co_await]: https://lewissbaker.github.io/2017/11/17/understanding-operator-co-await
