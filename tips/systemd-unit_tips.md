@@ -63,7 +63,7 @@
 
    ```
     [Unit]
-    Requires=proxy.service
+    BindsTo=proxy.service
     After=proxy.service
     
     Requires=listener.socket
