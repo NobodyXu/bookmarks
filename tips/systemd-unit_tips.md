@@ -33,6 +33,15 @@
 
    If the exe and config is not stored in home, then `User=<user>` can be replaced with 
    `DynamicUser=true` and `ProtectHome` can be set to `true`.
+
+   You can also uses:
+
+   ```
+   CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
+   AmbientCapabilities=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
+   ```
+
+   so that the services can bind to privileged ports.
  - systemd template unit. (Learnt from: https://fedoramagazine.org/systemd-template-unit-files/ and systemd.unit man page)
    
    Create a `name@.service` where `name` is any name you want.
