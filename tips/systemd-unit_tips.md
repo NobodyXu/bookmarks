@@ -6,6 +6,8 @@
    [Service]
    ExecStart=/home/<user>/exe args...
 
+   Restart=on-failure
+
    User=<user>
    PrivateUsers=true
 
@@ -62,44 +64,46 @@
    `listener.socket` would not be useful without `listener.service`:
 
    ```
-    [Unit]
-    BindsTo=proxy.service
-    After=proxy.service
-    
-    Requires=listener.socket
-    After=listener.socket
-    
-    [Service]
-    # --exit-idle-time would make systemd-socket-proxyd automatically quit when
-    # there is no active connection from port for more than 6m.
-    #
-    # To make the proxy.service quit automatically, adds 'StopWhenUnneeded=true' to its '[Unit]'.
-    ExecStart=/lib/systemd/systemd-socket-proxyd --exit-idle-time='6m' 127.0.0.1:port2
-    
-    # If unix socket is used instead of 127.0.0.1, then PrivateNetwork can be enabled.
-    #PrivateNetwork=yes
-    
-    DynamicUser=true
-    PrivateUsers=true
-    
-    NoNewPrivileges=true
-    
-    ProtectSystem=strict
-    ProtectHome=true
-    PrivateTmp=true
-    ProtectProc=noaccess
-    PrivateDevices=true
-    ProtectHostname=true
-    ProtectClock=true
-    ProtectKernelTunables=true
-    ProtectKernelModules=true
-    ProtectKernelLogs=true
-    ProtectControlGroups=true
-    
-    RemoveIPC=true
-    
-    [Install]
-    WantedBy=multi-user.target
+   [Unit]
+   BindsTo=proxy.service
+   After=proxy.service
+   
+   Requires=listener.socket
+   After=listener.socket
+   
+   [Service]
+   # --exit-idle-time would make systemd-socket-proxyd automatically quit when
+   # there is no active connection from port for more than 6m.
+   #
+   # To make the proxy.service quit automatically, adds 'StopWhenUnneeded=true' to its '[Unit]'.
+   ExecStart=/lib/systemd/systemd-socket-proxyd --exit-idle-time='6m' 127.0.0.1:port2
+   
+   Restart=on-failure
+
+   # If unix socket is used instead of 127.0.0.1, then PrivateNetwork can be enabled.
+   #PrivateNetwork=yes
+   
+   DynamicUser=true
+   PrivateUsers=true
+   
+   NoNewPrivileges=true
+   
+   ProtectSystem=strict
+   ProtectHome=true
+   PrivateTmp=true
+   ProtectProc=noaccess
+   PrivateDevices=true
+   ProtectHostname=true
+   ProtectClock=true
+   ProtectKernelTunables=true
+   ProtectKernelModules=true
+   ProtectKernelLogs=true
+   ProtectControlGroups=true
+   
+   RemoveIPC=true
+   
+   [Install]
+   WantedBy=multi-user.target
    ```
 
    Then you would need to add `StopWhenUnneeded=true` to your `proxy.service`'s `[Unit]` section.
