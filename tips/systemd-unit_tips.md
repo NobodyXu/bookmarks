@@ -73,7 +73,7 @@
     # --exit-idle-time would make systemd-socket-proxyd automatically quit when
     # there is no active connection from port for more than 6m.
     #
-    # To make the proxy.service quit automatically, adds 'StopWhenUnneeded=true' to it.
+    # To make the proxy.service quit automatically, adds 'StopWhenUnneeded=true' to its '[Unit]'.
     ExecStart=/lib/systemd/systemd-socket-proxyd --exit-idle-time='6m' 127.0.0.1:port2
     
     # If unix socket is used instead of 127.0.0.1, then PrivateNetwork can be enabled.
@@ -102,7 +102,7 @@
     WantedBy=multi-user.target
    ```
 
-   Then you would need to add `StopWhenUnneeded=true` to your `proxy.service`.
+   Then you would need to add `StopWhenUnneeded=true` to your `proxy.service`'s `[Unit]` section.
 
    Learnt from:
     - [systemd-socket-proxyd - freedesktop man page](https://www.freedesktop.org/software/systemd/man/systemd-socket-proxyd.html)
