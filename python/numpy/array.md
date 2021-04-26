@@ -2,4 +2,7 @@
  2. [How to extend an array in-place in Numpy?](https://stackoverflow.com/a/13215670/8375400)
  3. [numpy.resize](https://numpy.org/doc/stable/reference/generated/numpy.resize.html)
 
+## Printing
+ 1. [How to print the full NumPy array, without truncation?](https://stackoverflow.com/questions/1987694/how-to-print-the-full-numpy-array-without-truncation)
+
 [1]: https://stackoverflow.com/questions/44209368/how-to-change-a-single-value-in-a-numpy-array
