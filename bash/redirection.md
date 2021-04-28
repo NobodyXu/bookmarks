@@ -2,3 +2,4 @@
  2. [20.1 Using exec](https://www.tldp.org/LDP/abs/html/x17974.html)
  3. [3.6 Redirections](https://www.gnu.org/software/bash/manual/html_node/Redirections.html)
  4. [Bash Redirections Cheat Sheet](https://catonmat.net/ftp/bash-redirections-cheat-sheet.pdf)
+ 5. [Check if there is an stdout redirection in bash script](https://stackoverflow.com/questions/26761627/check-if-there-is-an-stdout-redirection-in-bash-script)
