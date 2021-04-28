@@ -5,3 +5,5 @@
     ```
     [[ $var =~ ^*/$ ]] && echo "yes"
     ```
+    
+    Also [bash substring regex matching wildcard failed](https://stackoverflow.com/questions/18730509/bash-substring-regex-matching-wildcard)
