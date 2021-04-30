@@ -33,3 +33,27 @@
    ```
 
    Since the data doesn't leave the machine, there is also no need to use TLS or any encryption.
+
+   Edit:
+
+   Even better if you use s3/minio/sftp/webdav or any other method that store your data as-is on the filesystem
+   and it is run locally on your server:
+
+   ```
+   # log in to your local storage server
+   mkdir -p \path\to\dummy\repository
+   cd \path\to\dummy\repository
+   duplicacy init repository_id onsite_storage_url
+   duplicacy add -copy default /path/to/storage/data --bit-identical repository_id offsite_storage_url
+   duplicacy copy -from default -to /path/to/storage/data
+   ```
+
+   if the offsite_storage are also on the local_server, i.e., migrate SFTP to minio, then data flows from 
+
+   ```
+   local_disk ->
+   kernel ->
+   duplicacy ->
+   kernel ->
+   local_disk
+   ```
