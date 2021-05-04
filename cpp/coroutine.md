@@ -1,3 +1,11 @@
+## Usage
+
+ 1. [C++ ERROR HANDLING, LET’S ABUSE THE CO_AWAIT OPERATOR](https://cpp-rendering.io/c-error-handling-lets-abuse-the-co_await-operator/)
+    
+    [Source code](https://wandbox.org/permlink/wpa5cXB4R6Rh4eWr)
+    
+## Internals
+
  1. [C++ Coroutines: Understanding operator co_await]
  2. [C++ coroutines: Getting started with awaitable objects](https://devblogs.microsoft.com/oldnewthing/20191209-00/?p=103195)
  3. [C++ coroutines: The mental model for coroutine promises](https://devblogs.microsoft.com/oldnewthing/20210329-00/?p=105015)
