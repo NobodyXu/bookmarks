@@ -36,5 +36,6 @@ https://devblogs.microsoft.com/oldnewthing/20210422-00/?p=105139)
  22. [C++ coroutines: What does it mean when I declare my coroutine as noexcept?](
 https://devblogs.microsoft.com/oldnewthing/20210426-00/?p=105153)
  23. [C++ coroutines: How do I create a coroutine that terminates on an unhandled exception?](https://devblogs.microsoft.com/oldnewthing/20210427-00/?p=105157)
+ 24. [C++ coroutines: Snooping in on the coroutine body](https://devblogs.microsoft.com/oldnewthing/20210428-00/?p=105160)
 
 [C++ Coroutines: Understanding operator co_await]: https://lewissbaker.github.io/2017/11/17/understanding-operator-co-await
