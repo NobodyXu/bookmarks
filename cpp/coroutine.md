@@ -33,5 +33,7 @@ https://devblogs.microsoft.com/oldnewthing/20210412-00/?p=105078)
  20. [C++ coroutines: Improving cold-start coroutines which complete synchronously](
 https://devblogs.microsoft.com/oldnewthing/20210422-00/?p=105139)
  21. [C++ coroutines: Associating multiple task types with the same promise type](https://devblogs.microsoft.com/oldnewthing/20210423-00/?p=105146)
+ 22. [C++ coroutines: What does it mean when I declare my coroutine as noexcept?](
+https://devblogs.microsoft.com/oldnewthing/20210426-00/?p=105153)
 
 [C++ Coroutines: Understanding operator co_await]: https://lewissbaker.github.io/2017/11/17/understanding-operator-co-await
