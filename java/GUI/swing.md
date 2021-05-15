@@ -1,3 +1,4 @@
+ 1. [What is the difference between Swing and AWT?](https://stackoverflow.com/questions/408820/what-is-the-difference-between-swing-and-awt)
 
 ## Threading
  1. [The Event Dispatch Thread](https://docs.oracle.com/javase/tutorial/uiswing/concurrency/dispatch.html)
