@@ -13,3 +13,7 @@
     
     to `<your cargo project>/.cargo/config.toml` to make it generate a dynamic library and the size of rust
     will be comparable to C/C++.
+    
+ 2. [johnthagen/min-sized-rust](https://github.com/johnthagen/min-sized-rust)
+    
+    Many methods in this list does not work with the point 1.
