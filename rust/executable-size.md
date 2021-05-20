@@ -11,7 +11,7 @@
     rustflags = ['-C', 'prefer-dynamic']
     ```
     
-    to `<your cargo project>/.cargo/config.toml` to make it generate a dynamic library and the size of rust
+    to `<your cargo project>/.cargo/config.toml` (or `~/.cargo/config.toml` for all projects build on your computer) to make it generate a dynamic library and the size of rust
     will be comparable to C/C++.
     
  2. [johnthagen/min-sized-rust](https://github.com/johnthagen/min-sized-rust)
