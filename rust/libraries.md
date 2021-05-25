@@ -12,6 +12,11 @@
     
     Basically, hyper is rewriting the internals of curl while keeping its API as of right now (2021).
 
+### high-level
+
+#### client
+ 1. [seanmonstar/reqwest](https://github.com/seanmonstar/reqwest)
+
 ## GUI
  1. [Rust-Qt](https://github.com/rust-qt)
     <br>[Rust + Qt guide](https://rust-qt.github.io/qt/)
