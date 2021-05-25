@@ -15,6 +15,7 @@
     <br>Might land in 2.0 series
     
     Used by [tokio-rs/tokio]
+ 3. [tokio-rs/io-uring](https://github.com/tokio-rs/io-uring)
 
 [tokio-rs/tokio]: https://github.com/tokio-rs/tokio
 
