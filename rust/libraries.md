@@ -7,7 +7,7 @@
 
 ## async io framework
  1. [tokio-rs/tokio]
- 2. [tokio-rs/mio](https://github.com/tokio-rs/mio)
+ 2. [tokio-rs/mio]
     
     Mio is a fast, low-level I/O library for Rust focusing on non-blocking APIs and event notification for building high performance I/O apps with as little overhead as possible over the OS abstractions.
     
@@ -16,8 +16,13 @@
     
     Used by [tokio-rs/tokio]
  3. [tokio-rs/io-uring](https://github.com/tokio-rs/io-uring)
+    
+    Used by [tokio-rs/mio]
+    
+ 4. [spacejam/rio](https://github.com/spacejam/rio)
 
 [tokio-rs/tokio]: https://github.com/tokio-rs/tokio
+[tokio-rs/mio]: https://github.com/tokio-rs/mio
 
 ## networking
  1. [tower-rs/tower](https://github.com/tower-rs/tower)
