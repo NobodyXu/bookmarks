@@ -17,6 +17,9 @@
 #### client
  1. [seanmonstar/reqwest](https://github.com/seanmonstar/reqwest)
 
+#### web-server
+ 1. [seanmonstar/warp](https://github.com/seanmonstar/warp)
+
 ## GUI
  1. [Rust-Qt](https://github.com/rust-qt)
     <br>[Rust + Qt guide](https://rust-qt.github.io/qt/)
