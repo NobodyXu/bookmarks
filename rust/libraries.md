@@ -52,10 +52,15 @@
  1. [Rust-Qt](https://github.com/rust-qt)
     <br>[Rust + Qt guide](https://rust-qt.github.io/qt/)
 
-## Testing
+## Development
  1. [tokio-rs/loom](https://github.com/tokio-rs/loom)
     
     Testing concurrent bugs
+    
+ 2. [bheisler/criterion.rs](https://github.com/bheisler/criterion.rs)
+    
+    For benchmarking
+    
  
 
 ## Languagne binding for C++
