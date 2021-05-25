@@ -52,5 +52,11 @@
  1. [Rust-Qt](https://github.com/rust-qt)
     <br>[Rust + Qt guide](https://rust-qt.github.io/qt/)
 
+## Testing
+ 1. [tokio-rs/loom](https://github.com/tokio-rs/loom)
+    
+    Testing concurrent bugs
+ 
+
 ## Languagne binding for C++
  1. [rust-qt/Ritual](https://github.com/rust-qt/ritual)
