@@ -5,6 +5,12 @@
 
 ### low-level
  1. [hyperium/hyper](https://github.com/hyperium/hyper)
+    
+    hyper can be both client and server
+ 
+    [RUST IN CURL WITH HYPER](https://daniel.haxx.se/blog/2020/10/09/rust-in-curl-with-hyper/)
+    
+    Basically, hyper is rewriting the internals of curl while keeping its API as of right now (2021).
 
 ## GUI
  1. [Rust-Qt](https://github.com/rust-qt)
