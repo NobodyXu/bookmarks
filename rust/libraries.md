@@ -11,6 +11,9 @@
     
     Mio is a fast, low-level I/O library for Rust focusing on non-blocking APIs and event notification for building high performance I/O apps with as little overhead as possible over the OS abstractions.
     
+    [io-uring support](https://github.com/tokio-rs/mio/issues/923)
+    <br>Might land in 2.0 series
+    
     Used by [tokio-rs/tokio]
 
 [tokio-rs/tokio]: https://github.com/tokio-rs/tokio
