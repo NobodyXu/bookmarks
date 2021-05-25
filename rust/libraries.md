@@ -2,7 +2,14 @@
  1. [chronotope/chrono](https://github.com/chronotope/chrono)
 
 ## async io framework
- 1. [tokio-rs/tokio](https://github.com/tokio-rs/tokio)
+ 1. [tokio-rs/tokio]
+ 2. [tokio-rs/mio](https://github.com/tokio-rs/mio)
+    
+    Mio is a fast, low-level I/O library for Rust focusing on non-blocking APIs and event notification for building high performance I/O apps with as little overhead as possible over the OS abstractions.
+    
+    Used by [tokio-rs/tokio]
+
+[tokio-rs/tokio]: https://github.com/tokio-rs/tokio
 
 ## networking
  1. [tower-rs/tower](https://github.com/tower-rs/tower)
