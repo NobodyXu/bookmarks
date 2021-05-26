@@ -3,3 +3,4 @@
     Supported
 
  2. Varadic generic: Not supported directly, but can be emulated using macro (print! for example is implemented using macro)
+ 3. Generic full specialisation: supported
