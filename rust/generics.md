@@ -3,4 +3,4 @@
     Supported
 
  2. Varadic generic: Not supported directly, but can be emulated using macro (print! for example is implemented using macro)
- 3. Generic full specialisation: supported
+ 3. [specialisation: supported](https://doc.rust-lang.org/book/ch10-02-traits.html#using-trait-bounds-to-conditionally-implement-methods)
