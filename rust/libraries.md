@@ -5,7 +5,7 @@
  1. [rayon-rs/rayon](https://github.com/rayon-rs/rayon)
 
 ## Database
- 1. [tokio-rs/rdbc](https://github. To com/tokio-rs/rdbc)
+ 1. [tokio-rs/rdbc](https://github.com/tokio-rs/rdbc)
  2. [diesel-rs/diesel](https://github.com/diesel-rs/diesel)
 
 ## async io framework
