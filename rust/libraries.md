@@ -1,6 +1,8 @@
 ## err handling
  1. [dtolnay/anyhow](https://github.com/dtolnay/anyhow)
 
+## Integer Parsing
+ 1. [gilescope/atoi_radix10](https://github.com/gilescope/atoi_radix10)
 ## Time
  1. [chronotope/chrono](https://github.com/chronotope/chrono)
 
