@@ -7,6 +7,7 @@
 ## Database
  1. [tokio-rs/rdbc](https://github.com/tokio-rs/rdbc)
  2. [diesel-rs/diesel](https://github.com/diesel-rs/diesel)
+ 3. [launchbadge/SQLx](https://github.com/launchbadge/sqlx)
 
 ## async io framework
  1. [tokio-rs/tokio]
