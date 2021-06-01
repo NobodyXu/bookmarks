@@ -53,6 +53,7 @@
  1. [seanmonstar/warp](https://github.com/seanmonstar/warp)
  2. [http-rs/tide](https://github.com/http-rs/tide)
  3. [SergioBenitez/Rocket](https://github.com/SergioBenitez/Rocket)
+ 4. [actix.rs](https://actix.rs)
 
 ## GUI
  1. [Rust-Qt](https://github.com/rust-qt)
