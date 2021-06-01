@@ -68,7 +68,7 @@
  1. [Rust-Qt](https://github.com/rust-qt)
     <br>[Rust + Qt guide](https://rust-qt.github.io/qt/)
  2. [linebender/druid](https://github.com/linebender/druid)
- 3. [emilk/egui](https://github.com/emilk/egui) seems quite easy to use and support wasm and opengl
+ 3. [emilk/egui](https://github.com/emilk/egui) seems quite easy to use and support wasm and opengl out of box
 
 ## Development
  1. [tokio-rs/loom](https://github.com/tokio-rs/loom)
