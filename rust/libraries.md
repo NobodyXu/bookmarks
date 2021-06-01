@@ -1,3 +1,6 @@
+## err handling
+ 1. [dtolnay/anyhow](https://github.com/dtolnay/anyhow)
+
 ## Time
  1. [chronotope/chrono](https://github.com/chronotope/chrono)
 
