@@ -55,6 +55,10 @@
  3. [SergioBenitez/Rocket](https://github.com/SergioBenitez/Rocket)
  4. [actix.rs](https://actix.rs)
 
+## TUI
+
+ 1. [gyscos/cursive](https://github.com/gyscos/cursive)
+
 ## GUI
  1. [Rust-Qt](https://github.com/rust-qt)
     <br>[Rust + Qt guide](https://rust-qt.github.io/qt/)
