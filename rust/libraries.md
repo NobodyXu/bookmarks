@@ -51,6 +51,7 @@
 
 ##### web-server
  1. [seanmonstar/warp](https://github.com/seanmonstar/warp)
+ 2. [http-rs/tide](https://github.com/http-rs/tide)
 
 ## GUI
  1. [Rust-Qt](https://github.com/rust-qt)
