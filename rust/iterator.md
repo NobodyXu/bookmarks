@@ -32,3 +32,6 @@
         Option::Some(largest)
     }
     ```
+ 2. [How do I iterate over a range with a custom step?](https://stackoverflow.com/questions/27893223/how-do-i-iterate-over-a-range-with-a-custom-step)
+    
+    TL;DR: `(1..10).step_by(<step>)`
