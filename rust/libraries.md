@@ -9,6 +9,9 @@
 ## Time
  1. [chronotope/chrono](https://github.com/chronotope/chrono)
 
+## Generator
+ 1. [genawaiter](https://crates.io/crates/genawaiter)
+
 ## parallel programming
  1. [rayon-rs/rayon](https://github.com/rayon-rs/rayon)
 
