@@ -1,3 +1,6 @@
+## Helpers
+ 1. [init_array](https://crates.io/crates/init_array)
+
 ## err handling
  1. [dtolnay/anyhow](https://github.com/dtolnay/anyhow)
 
