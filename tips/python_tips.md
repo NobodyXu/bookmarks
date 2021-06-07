@@ -1,0 +1,1 @@
+ - `pigar` can be used to auto generate requirements.txt
