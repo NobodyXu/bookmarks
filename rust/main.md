@@ -3,7 +3,7 @@
     TL;DR:
     
     ```
-    fn main() -> Result<(), std::io::Error> {
+    fn main() -> Result<(), Error type here> {
        Ok(())
     }
     ```
