@@ -1,2 +1,4 @@
  - '-q' option can be used to only show difference
  - '-r' option can be used to compare two directories.
+ - `--strip-trailing-cr` can be used to ignore window-specific cr line ending
+ - `-x '<pattern>'`can be used to ignore certain files
