@@ -4,3 +4,4 @@
     [crate - fixed_sqrt](https://docs.rs/fixed-sqrt/0.2.4/fixed_sqrt/)
     
     [crate - cordic](https://docs.rs/cordic/0.1.5/cordic/)
+ 3. [crate- bytemuck](https://docs.rs/bytemuck/1.6.1/bytemuck/index.html)
