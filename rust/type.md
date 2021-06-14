@@ -14,3 +14,7 @@
     TL;DR:
     
     Can't do it in stable Rust as of Jun, 2021, but it can be simulated with the `Deref` trait to return a lambda.
+
+
+## Interior Mutability
+ 1. [Interior Mutability - The Rust Reference](https://doc.rust-lang.org/reference/interior-mutability.html)
