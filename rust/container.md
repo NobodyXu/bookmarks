@@ -17,4 +17,4 @@
 
 ### Concurrency Support
 
-Check [concurrency](/rust/concurrency.md)
+Check [concurrency::container](/rust/concurrency.md#container)
