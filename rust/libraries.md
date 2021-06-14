@@ -101,8 +101,5 @@
  1. [tensorflow/rust](https://github.com/tensorflow/rust) tensorflow binding for rust
  2. [LaurentMazare/tch-rs](https://github.com/LaurentMazare/tch-rs) pytorch binding for rust
 
-## Languagne binding for C++
- 1. [rust-qt/Ritual](https://github.com/rust-qt/ritual)
-
 ## BPF
  1. [foniod/redbpf](https://github.com/foniod/redbpf)
