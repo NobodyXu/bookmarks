@@ -8,6 +8,8 @@
  4. [Exotically sized types](https://doc.rust-lang.org/nomicon/exotic-sizes.html)
  5. [Alternative representations](https://doc.rust-lang.org/nomicon/other-reprs.html)
 
+## Destructor
+ 1. [Function `std::mem::forget<T>(t: t)`](https://doc.rust-lang.org/nightly/std/mem/fn.forget.html)
 
 ## operater overloading
  1. [How do I make a struct callable?](https://stackoverflow.com/questions/42859330/how-do-i-make-a-struct-callable)
