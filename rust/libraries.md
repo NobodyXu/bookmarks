@@ -92,6 +92,9 @@
     
  3. [asomers/mockall](https://github.com/asomers/mockall) powerful mock object library for rust
 
+## Data Sci
+ 1. [pola-rs/polars](https://github.com/pola-rs/polars)
+
 ## ML
  1. [tensorflow/rust](https://github.com/tensorflow/rust) tensorflow binding for rust
  2. [LaurentMazare/tch-rs](https://github.com/LaurentMazare/tch-rs) pytorch binding for rust
