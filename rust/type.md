@@ -18,3 +18,7 @@
 
 ## Interior Mutability
  1. [Interior Mutability - The Rust Reference](https://doc.rust-lang.org/reference/interior-mutability.html)
+    
+    TL;DR:
+    
+    Use [`std::cell::UnsafeCell`](https://doc.rust-lang.org/std/cell/struct.UnsafeCell.html)
