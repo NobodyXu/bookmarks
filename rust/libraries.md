@@ -1,6 +1,9 @@
 ## Helpers
  1. [init_array](https://crates.io/crates/init_array)
 
+## cmdline parsing
+ 1. [TeXitoi/structopt](https://github.com/TeXitoi/structopt)
+
 ## err handling
  1. [dtolnay/anyhow](https://github.com/dtolnay/anyhow)
 
