@@ -69,6 +69,8 @@
 ## TUI
 
  1. [gyscos/cursive](https://github.com/gyscos/cursive)
+ 2. [ihalila/pancurses](https://github.com/ihalila/pancurses) supports both unix and win
+ 3. [dankamongmen/notcurses-rs](https://github.com/dankamongmen/notcurses-rs) binding for notcurses
 
 ## GUI
  1. [Rust-Qt](https://github.com/rust-qt)
