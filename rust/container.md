@@ -11,3 +11,10 @@
         }                                     
     }
     ```
+
+## Existing implementation
+ 1. [Fairglow/index-list](https://crates.io/crates/index_list)
+
+### Concurrency Support
+
+Check [concurrency](/rust/concurrency.md)
