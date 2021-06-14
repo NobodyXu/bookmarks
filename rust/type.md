@@ -9,8 +9,8 @@
  5. [Alternative representations](https://doc.rust-lang.org/nomicon/other-reprs.html)
 
 ## Destructor
- 1. [Function `std::mem::forget<T>(t: t)`](https://doc.rust-lang.org/nightly/std/mem/fn.forget.html)
-
+ 1. [`fn std::mem::forget<T>(t: t)`](https://doc.rust-lang.org/nightly/std/mem/fn.forget.html)
+ 2. [`#[repr(transparent)] struct ManuallyDrop<T: ?Sized>`](https://doc.rust-lang.org/nightly/std/mem/struct.ManuallyDrop.html)
 ## operater overloading
  1. [How do I make a struct callable?](https://stackoverflow.com/questions/42859330/how-do-i-make-a-struct-callable)
     
