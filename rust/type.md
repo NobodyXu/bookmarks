@@ -6,3 +6,11 @@
     [crate - cordic](https://docs.rs/cordic/0.1.5/cordic/)
  3. [crate- bytemuck](https://docs.rs/bytemuck/1.6.1/bytemuck/index.html)
  4. [Exotically sized types](https://doc.rust-lang.org/nomicon/exotic-sizes.html)
+
+
+## operater overloading
+ 1. [How do I make a struct callable?](https://stackoverflow.com/questions/42859330/how-do-i-make-a-struct-callable)
+    
+    TL;DR:
+    
+    Can't do it in stable Rust as of Jun, 2021, but it can be simulated with the `Deref` trait to return a lambda.
