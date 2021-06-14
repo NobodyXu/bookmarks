@@ -6,6 +6,7 @@
     [crate - cordic](https://docs.rs/cordic/0.1.5/cordic/)
  3. [crate- bytemuck](https://docs.rs/bytemuck/1.6.1/bytemuck/index.html)
  4. [Exotically sized types](https://doc.rust-lang.org/nomicon/exotic-sizes.html)
+ 5. [Alternative representations](https://doc.rust-lang.org/nomicon/other-reprs.html)
 
 
 ## operater overloading
