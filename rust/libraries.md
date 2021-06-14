@@ -1,5 +1,6 @@
 ## Helpers
  1. [init_array](https://crates.io/crates/init_array)
+ 2. [Lucretiel/iterate](https://docs.rs/iterate/1.0.0/iterate/macro.iterate.html)
 
 ## cmdline parsing
  1. [TeXitoi/structopt](https://github.com/TeXitoi/structopt)
