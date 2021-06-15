@@ -6,6 +6,9 @@
 ## cmdline parsing
  1. [TeXitoi/structopt](https://github.com/TeXitoi/structopt)
 
+## signal handling
+ 1. [vorner/signal-hook](https://github.com/vorner/signal-hook) it will be great to support signal handling as async fn
+
 ## err handling
  1. [dtolnay/anyhow](https://github.com/dtolnay/anyhow)
 
