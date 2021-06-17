@@ -7,3 +7,9 @@
    [build]
    rustflags = ["-C", "link-args=-fuse-ld=lld -flto"]
    ```
+ - How to debug test?
+   
+   ```
+   cargo install cargo-with
+   cargo with gdb -- test
+   ```
