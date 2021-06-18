@@ -8,6 +8,7 @@
  4. [Exotically sized types](https://doc.rust-lang.org/nomicon/exotic-sizes.html)
  5. [Alternative representations](https://doc.rust-lang.org/nomicon/other-reprs.html)
  6. [`const fn size_of<T>() -> usize`](https://doc.rust-lang.org/std/mem/fn.size_of.html)
+ 7. [`const fn size_of_val<T>(val: &T) -> usize`](https://doc.rust-lang.org/std/mem/fn.size_of_val.html)
 
 ## Destructor
  1. [`fn std::mem::forget<T>(t: t)`](https://doc.rust-lang.org/nightly/std/mem/fn.forget.html)
