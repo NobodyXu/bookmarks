@@ -1,0 +1,1 @@
+ - Use 'shift + F' to focus on one process. https://askubuntu.com/questions/545230/anchor-htop-to-one-specific-process
