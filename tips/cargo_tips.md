@@ -13,3 +13,9 @@
    cargo install cargo-with
    cargo with gdb -- test
    ```
+
+ - How to disassemble test and dismangle symbol names?
+   
+   ```
+   cargo with 'objdump -d' -- test | rustfilt
+   ```
