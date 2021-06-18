@@ -11,3 +11,7 @@
    (gdb) select-frame <frame-no>
    (gdb) info locals
    ```
+ - Print memory mappings of a core file:
+    - `info proc mappings`
+    - `info files`
+    - `maintenance info sections`
