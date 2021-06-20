@@ -5,3 +5,5 @@
     Just use `unsafe std::mem::transmute` or pointer to do it.
     <br>There's no strict aliasing in rust.
  2. [How to get a reference to a concrete type from a trait object?](https://stackoverflow.com/questions/33687447/how-to-get-a-reference-to-a-concrete-type-from-a-trait-object)
+    
+    TL;DR: [std::any::Any](https://doc.rust-lang.org/std/any/trait.Any.html)
