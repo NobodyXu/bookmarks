@@ -29,5 +29,7 @@
     }
     ```
     
+    [playground link](https://play.rust-lang.org/?version=nightly&mode=debug&edition=2018&gist=a2573fda08e0d44c24963c7fff340c94)
+    
  2. [`struct std::ptr::DynMetadata`](https://doc.rust-lang.org/nightly/std/ptr/struct.DynMetadata.html)
  3. [`trait core::ptr::Pointee`](https://doc.rust-lang.org/nightly/core/ptr/trait.Pointee.html)
