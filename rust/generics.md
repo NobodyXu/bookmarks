@@ -54,4 +54,4 @@
         println!("sdynp = {:p}, sdynvtable = {:#?}", sdynp, sdynvtable);
     }
     ```
- 
+    [playground link](https://play.rust-lang.org/?version=nightly&mode=debug&edition=2018&gist=e29cd4a845ff864bbe45babbff8db47b)
