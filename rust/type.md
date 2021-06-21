@@ -44,7 +44,7 @@ fn main() {
     // println!("s.f2() = {}", s.f2()); error!
 
     println!("s.f3() = {}", s.f3());
-    println!("S::f3(s) = {}", s.f3());
+    println!("S::f3(&s) = {}", S::f3(&s));
 }
 ```
 
