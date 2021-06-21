@@ -10,9 +10,48 @@
  6. [`const fn size_of<T>() -> usize`](https://doc.rust-lang.org/std/mem/fn.size_of.html)
  7. [`const fn size_of_val<T>(val: &T) -> usize`](https://doc.rust-lang.org/std/mem/fn.size_of_val.html)
 
+## method vs static function
+
+```rust
+struct S {
+    i: i32
+}
+
+impl S {
+    fn f1(a: i32) -> i32 {
+        a
+    }
+    
+    fn f2(b: &S) -> i32 {
+        b.i
+    }
+    
+    fn f3(&self) -> i32 {
+        self.i
+    }
+    
+    /*Error:
+    fn f4(self: i32) -> i32 {
+        self
+    }*/
+}
+
+fn main() {
+    let s = S { i: 1 };
+    
+    println!("S::f1(1) = {}", S::f1(1));
+    println!("S::f2(s) = {}", S::f2(&s));
+    // println!("s.f2() = {}", s.f2()); error!
+
+    println!("s.f3() = {}", s.f3());
+    println!("S::f3(s) = {}", s.f3());
+}
+```
+
 ## Destructor
  1. [`fn std::mem::forget<T>(t: t)`](https://doc.rust-lang.org/nightly/std/mem/fn.forget.html)
  2. [`#[repr(transparent)] struct ManuallyDrop<T: ?Sized>`](https://doc.rust-lang.org/nightly/std/mem/struct.ManuallyDrop.html)
+
 ## operater overloading
  1. [How do I make a struct callable?](https://stackoverflow.com/questions/42859330/how-do-i-make-a-struct-callable)
     
