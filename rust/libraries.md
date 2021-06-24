@@ -6,6 +6,7 @@
  3. [once_cell](https://docs.rs/once_cell/1.8.0/once_cell/index.html) for (lazy/delayed) initializing global data and lazy evaluate local variable
  4. [fergaljoconnor/zero_v](https://github.com/fergaljoconnor/zero_v) A framework for iterating over collections of types implementing a trait without virtual dispatch
  5. [matthieu-m/static-rc](https://github.com/matthieu-m/static-rc) Compile-time reference counting
+ 6. [dtolnay/no-panic](https://github.com/dtolnay/no-panic) Attribute macro to require that the compiler prove a function can't ever panic
 
 ## cmdline parsing
  1. [TeXitoi/structopt](https://github.com/TeXitoi/structopt)
