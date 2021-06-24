@@ -103,8 +103,7 @@
  3. [asomers/mockall](https://github.com/asomers/mockall) powerful mock object library for rust
 
 ## Data Sci
- 1. [pola-rs/polars](https://github.com/pola-rs/polars)
- 2. [dbrgn/tealdeer](https://github.com/dbrgn/tealdeer)
+ 1. [pola-rs/polars](https://github.com/pola-rs/polars) pandas in rust
 
 ## ML
  1. [tensorflow/rust](https://github.com/tensorflow/rust) tensorflow binding for rust
