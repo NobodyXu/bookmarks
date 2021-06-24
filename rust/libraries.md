@@ -104,6 +104,7 @@
 
 ## Data Sci
  1. [pola-rs/polars](https://github.com/pola-rs/polars)
+ 2. [dbrgn/tealdeer](https://github.com/dbrgn/tealdeer)
 
 ## ML
  1. [tensorflow/rust](https://github.com/tensorflow/rust) tensorflow binding for rust
