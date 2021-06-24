@@ -4,6 +4,7 @@
  1. [init_array](https://crates.io/crates/init_array)
  2. [Lucretiel/iterate](https://docs.rs/iterate/1.0.0/iterate/macro.iterate.html)
  3. [once_cell](https://docs.rs/once_cell/1.8.0/once_cell/index.html) for (lazy/delayed) initializing global data and lazy evaluate local variable
+ 4. [fergaljoconnor/zero_v](https://github.com/fergaljoconnor/zero_v) A framework for iterating over collections of types implementing a trait without virtual dispatch
 
 ## cmdline parsing
  1. [TeXitoi/structopt](https://github.com/TeXitoi/structopt)
