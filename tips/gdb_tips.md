@@ -18,3 +18,5 @@
  - How to print siginfo from a core file: `print $_siginfo` in gdb after the core file is loaded
    
    Learnt from [Finding Source of a UNIX Signal from Coredump](https://stackoverflow.com/questions/25519152/finding-source-of-a-unix-signal-from-coredump)
+ - Use `x/d $rsp` to print memory pointed to by `$rsp`. Similarly, `$rsp` can be replaced
+   with any value.
