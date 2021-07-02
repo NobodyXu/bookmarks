@@ -21,3 +21,5 @@
  - Use `x/d $rsp` to print memory pointed to by `$rsp`. Similarly, `$rsp` can be replaced
    with any value.
  - Print the source code of function using `list`
+ - Use `gdb --args /path/to/program args...` to run program with args
+ - Use `set follow-fork-mode child` to follow the children after `clone`ed
