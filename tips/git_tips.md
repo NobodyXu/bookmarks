@@ -1,3 +1,4 @@
  - `git pull --rebase <upstream> main` would rebase the current branch with `<upstream>` master
  - `git bundle create path/to/bundle/to/create --all` for creating a bundle out of git repo
  - `git gc --aggressive --prune=now --keep-largest-pack` can be used to shrink repository size on disk if no other gc is running
+ - `git rebase <commit/HEAD~number> -i` to collapse several commits into one or rewriting commit message.
