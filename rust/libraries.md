@@ -7,6 +7,7 @@
  4. [fergaljoconnor/zero_v](https://github.com/fergaljoconnor/zero_v) A framework for iterating over collections of types implementing a trait without virtual dispatch
  5. [matthieu-m/static-rc](https://github.com/matthieu-m/static-rc) Compile-time reference counting
  6. [dtolnay/no-panic](https://github.com/dtolnay/no-panic) Attribute macro to require that the compiler prove a function can't ever panic
+ 7. [illicitonion/num_enum](https://github.com/illicitonion/num_enum) help convert enum to/from integer
 
 ## cmdline parsing
  1. [TeXitoi/structopt](https://github.com/TeXitoi/structopt)
