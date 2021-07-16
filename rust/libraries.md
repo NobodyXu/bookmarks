@@ -17,6 +17,7 @@
 
 ## err handling
  1. [dtolnay/anyhow](https://github.com/dtolnay/anyhow)
+ 2. [dtolnay/thiserror](https://github.com/dtolnay/thiserror) for designing your own `Error` type
 
 ## Integer Parsing
  1. [gilescope/atoi_radix10](https://github.com/gilescope/atoi_radix10)
