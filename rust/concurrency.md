@@ -8,6 +8,14 @@
  5. [withoutboats/waitmap](https://github.com/withoutboats/waitmap) built upon [xacrimon/dashmap]
  6. [jonhoo/flurry](https://github.com/jonhoo/flurry)
  7. [bzim/lockfree](https://gitlab.com/bzim/lockfree)
+    
+    Supports:
+     - Per-Object Thread-Local Storage
+     - Map, implemented using multi-level hash-tables (in a tree fashion) with ordered buckets
+     - Set
+     - Queue
+     - Stack
+     - SPSC, MPSC, SPMC and MPMC channels, fully asynchronous
 
 [xacrimon/dashmap]: https://github.com/xacrimon/dashmap
 [jonhoo/left-right]: https://github.com/jonhoo/left-right
