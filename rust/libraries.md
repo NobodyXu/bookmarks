@@ -10,6 +10,7 @@
  7. [illicitonion/num_enum](https://github.com/illicitonion/num_enum) help convert enum to/from integer
  8. [jaemk/cached](https://github.com/jaemk/cached)
  9. [edgeandnode/eventuals](https://github.com/edgeandnode/eventuals) observer pattern
+ 10. [calebzulawski/multiversion](https://github.com/calebzulawski/multiversion) for dynamic and static dispatch of the same function optimized for different CPU model
 
 ## cmdline parsing
  1. [TeXitoi/structopt](https://github.com/TeXitoi/structopt)
