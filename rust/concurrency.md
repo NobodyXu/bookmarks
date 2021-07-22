@@ -16,6 +16,7 @@
      - Queue
      - Stack
      - SPSC, MPSC, SPMC and MPMC channels, fully asynchronous
+ 8. [vorner/arc-swap](https://github.com/vorner/arc-swap)
 
 [xacrimon/dashmap]: https://github.com/xacrimon/dashmap
 [jonhoo/left-right]: https://github.com/jonhoo/left-right
