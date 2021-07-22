@@ -7,6 +7,7 @@
  4. [xacrimon/dashmap] uses `Box<[RwLock<HashMap<...>]>` underlying
  5. [withoutboats/waitmap](https://github.com/withoutboats/waitmap) built upon [xacrimon/dashmap]
  6. [jonhoo/flurry](https://github.com/jonhoo/flurry)
+ 7. [bzim/lockfree](https://gitlab.com/bzim/lockfree)
 
 [xacrimon/dashmap]: https://github.com/xacrimon/dashmap
 [jonhoo/left-right]: https://github.com/jonhoo/left-right
