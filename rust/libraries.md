@@ -11,6 +11,7 @@
  8. [jaemk/cached](https://github.com/jaemk/cached)
  9. [edgeandnode/eventuals](https://github.com/edgeandnode/eventuals) observer pattern
  10. [calebzulawski/multiversion](https://github.com/calebzulawski/multiversion) for dynamic and static dispatch of the same function optimized for different CPU model
+ 11. [anixe/doku](https://github.com/anixe/doku)
 
 ## cmdline parsing
  1. [TeXitoi/structopt](https://github.com/TeXitoi/structopt)
