@@ -9,7 +9,7 @@
  6. [dtolnay/no-panic](https://github.com/dtolnay/no-panic) Attribute macro to require that the compiler prove a function can't ever panic
  7. [illicitonion/num_enum](https://github.com/illicitonion/num_enum) help convert enum to/from integer
  8. [jaemk/cached](https://github.com/jaemk/cached)
- 9. [edgeandnode/eventuals](https://github.com/edgeandnode/eventuals)
+ 9. [edgeandnode/eventuals](https://github.com/edgeandnode/eventuals) observer pattern
 
 ## cmdline parsing
  1. [TeXitoi/structopt](https://github.com/TeXitoi/structopt)
