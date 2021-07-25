@@ -20,6 +20,9 @@
      - Stack
      - SPSC, MPSC, SPMC and MPMC channels, fully asynchronous
  8. [vorner/arc-swap](https://github.com/vorner/arc-swap) Making Arc itself atomic
+ 9. [redox-os/chashmap](https://gitlab.redox-os.org/redox-os/chashmap)
+    
+    > This crate implements concurrent hash maps, based on bucket-level multi-reader locks. It has excellent performance characteristics¹ and supports resizing, in-place mutation and more.
 
 [xacrimon/dashmap]: https://github.com/xacrimon/dashmap
 [jonhoo/left-right]: https://github.com/jonhoo/left-right
