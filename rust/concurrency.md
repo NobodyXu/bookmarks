@@ -1,3 +1,6 @@
+## Testing
+ 1. [tokio-rs/loom](https://github.com/tokio-rs/loom) Concurrency permutation testing tool for Rust.
+
 ## container
  1. [kanidm/concread](https://github.com/kanidm/concread)
  2. [jonhoo/left-right]
