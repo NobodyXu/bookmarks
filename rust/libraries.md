@@ -119,5 +119,9 @@
  1. [tensorflow/rust](https://github.com/tensorflow/rust) tensorflow binding for rust
  2. [LaurentMazare/tch-rs](https://github.com/LaurentMazare/tch-rs) pytorch binding for rust
 
+## Crypto
+ 1. [dalek-cryptography](https://github.com/dalek-cryptography)
+ 2. [Rust Crypto](https://github.com/RustCrypto)
+
 ## BPF
  1. [foniod/redbpf](https://github.com/foniod/redbpf)
