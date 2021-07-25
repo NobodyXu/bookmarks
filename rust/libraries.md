@@ -110,6 +110,7 @@
     For benchmarking
     
  3. [asomers/mockall](https://github.com/asomers/mockall) powerful mock object library for rust
+ 4. [xd009642/tarpaulin](https://github.com/xd009642/tarpaulin) for test coverage
 
 ## Data Sci
  1. [pola-rs/polars](https://github.com/pola-rs/polars) pandas in rust
