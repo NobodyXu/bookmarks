@@ -40,8 +40,8 @@
      > - triomphe::Arc has can be constructed for dynamically-sized types via from_header_and_iter
      > - triomphe::ThinArc provides thin-pointer Arcs to dynamically sized types
      > - triomphe::ArcUnion is union of two triomphe:Arcs which fits inside one word of memory
-
-This crate is a version of servo_arc meant for general community use.
+     > 
+     > This crate is a version of servo_arc meant for general community use.
 
 ## cmdline parsing
  1. [TeXitoi/structopt](https://github.com/TeXitoi/structopt)
