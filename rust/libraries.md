@@ -23,11 +23,11 @@
      
      > Pointer utility crates
      > 
-     > erasable: Erase pointers of their concrete type.
-     > rc-borrow: Borrowed forms of Rc and Arc.
-     > rc-box: Known unique forms of Rc and Arc.
-     > ptr-union: Pointer unions the size of a pointer.
-     > slice-dst: Support for custom slice-based DSTs.
+     > - erasable: Erase pointers of their concrete type.
+     > - rc-borrow: Borrowed forms of Rc and Arc.
+     > - rc-box: Known unique forms of Rc and Arc.
+     > - ptr-union: Pointer unions the size of a pointer.
+     > - slice-dst: Support for custom slice-based DSTs.
 
 
 ## cmdline parsing
