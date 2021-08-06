@@ -18,6 +18,17 @@
      > Support for custom slice-based DSTs.
      > 
      > By handling allocation manually, we can manually allocate the Box for a custom DST. So long as the size lines up with what it should be, once the metadata is created, Rust actually already handles the DSTs it already supports perfectly well, safely! Setting them up is the hard part, which this crate handles for you.
+ 
+ 14. [CAD97/pointer-utils](https://github.com/CAD97/pointer-utils)
+     
+     > Pointer utility crates
+     > 
+     > erasable: Erase pointers of their concrete type.
+     > rc-borrow: Borrowed forms of Rc and Arc.
+     > rc-box: Known unique forms of Rc and Arc.
+     > ptr-union: Pointer unions the size of a pointer.
+     > slice-dst: Support for custom slice-based DSTs.
+
 
 ## cmdline parsing
  1. [TeXitoi/structopt](https://github.com/TeXitoi/structopt)
