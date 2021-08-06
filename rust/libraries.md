@@ -13,6 +13,11 @@
  10. [calebzulawski/multiversion](https://github.com/calebzulawski/multiversion) for dynamic and static dispatch of the same function optimized for different CPU model
  11. [anixe/doku](https://github.com/anixe/doku) Doku is a framework for building documentation with code-as-data methodology in mind.
  12. [systemcluster/staticfilemap](https://github.com/systemcluster/staticfilemap) Procedural macro to embed optionally compressed files during compilation.
+ 13. [CAD97/pointer-utils/crates/slice-dst](https://github.com/CAD97/pointer-utils/tree/master/crates/slice-dst) 
+     
+     > Support for custom slice-based DSTs.
+     > 
+     > By handling allocation manually, we can manually allocate the Box for a custom DST. So long as the size lines up with what it should be, once the metadata is created, Rust actually already handles the DSTs it already supports perfectly well, safely! Setting them up is the hard part, which this crate handles for you.
 
 ## cmdline parsing
  1. [TeXitoi/structopt](https://github.com/TeXitoi/structopt)
