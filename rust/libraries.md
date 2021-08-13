@@ -42,6 +42,7 @@
      > - triomphe::ArcUnion is union of two triomphe:Arcs which fits inside one word of memory
      > 
      > This crate is a version of servo_arc meant for general community use.
+ 16. [Lucretiel/brownstone](https://github.com/Lucretiel/brownstone) A library for constructing statically sized arrays
 
 ## cmdline parsing
  1. [TeXitoi/structopt](https://github.com/TeXitoi/structopt)
