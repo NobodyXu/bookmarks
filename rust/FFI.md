@@ -6,3 +6,5 @@
  1. [PyO3/pyo3](https://github.com/PyO3/pyo3)
  2. [dgrunwald/rust-cpython](https://github.com/dgrunwald/rust-cpython)
  3. [PyO3/maturin](https://github.com/PyO3/maturin) build and publish crates with pyo3, rust-cpython and cffi bindings as python packages
+ 4. [indygreg/PyOxidizer](https://github.com/indygreg/PyOxidizer) for embedding python interpreter
+
