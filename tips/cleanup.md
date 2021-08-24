@@ -1,0 +1,6 @@
+ - `sudo emerge --depclean -a`
+ - Remove old `/usr/src/linux-*` (probably there because it has object files in it)
+ - Remove unwanted linux kernel installations in `/lib/modules/linux-*` and `/boot/`
+ - Run `sudo eclean-dist -d` to cleanup `/var/cache/distfiles/`
+ - Run `ccache -c` and `ccache  --evict-older-than <days>d` to evict unused entries
+ - Run `sudo e4defrag <ext4 device/mount point/files on ext4>` to online defrag ext4
