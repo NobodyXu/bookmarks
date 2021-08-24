@@ -1,2 +1,3 @@
  - Compress using zstd ultra 22: `zstd --progress --ultra --long -T0 -22 <file> --rsyncable --exclude-compressed -o <file>`
  - Compress using 10, without compressing compressed and be rsyncable: `zstd --progress -10 --long -T0 --rsyncable --exclude-compressed -o <file>`
+ - Fast compression: `zstd --progress --long -T0 --fast --exclude-compressed -o <file>`
