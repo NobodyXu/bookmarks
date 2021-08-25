@@ -21,6 +21,18 @@ as a subvolume.
 
 Shamelessly copied from [official doc](https://btrfs.wiki.kernel.org/index.php/Incremental_Backup)
 
+## How to send backup over network
+
+Since network is usually very unstable and slow, and `btrfs send` as of writing outputs
+uncompressed data (compressed data is supported in v2), it is suggested to first
+compress it and store it locally:
+
+```
+btrfs send /path/to/snapshot | zstd --progress --ultra --long -22 --rsyncable -T0 --exclude-compressed -o <file>.zst
+```
+
+Then transmit it using `rsync` to the remote computer in a resumable manner.
+
 ## Initial bootstrap
 
 ```
