@@ -1,11 +1,14 @@
 # mounting
- - suggested to use `noatime,discard=async,nofail,compress=zstd:15`.
+ - suggested to use `noatime,discard=async,nofail,compress=zstd:15,flushoncommit`.
    
    `nofail` is there just in case btrfs is corrupted.
 
    `noatime,discard=async` are there to optimise btrfs.
 
    `compress=zstd:15` is used to compress compressible with zstd, level 15 (currently the highest).
+
+   `flushoncommit` should be enabled to provide the same data on power-loss guarantee
+   as ext4.
 
 # Create snapshot
 
