@@ -1,4 +1,4 @@
- - Compress using zstd ultra 22: `zstd --progress --ultra --long -T0 -22 <file> --rsyncable --exclude-compressed -o <file>.zst`
- - Compress using 10, without compressing compressed and be rsyncable: `zstd --progress -10 --long -T0 --rsyncable --exclude-compressed -o <file>.zst`
- - Fast compression: `zstd --progress --long -T0 --fast --exclude-compressed -o <file>.zst`
- - Adaptive compresson for compressing dir and store it onto another device: `zstd --progress --long -T0 --adapt --exclude-compressed -o <file>.zst`
+ - Compress using zstd ultra 22: `zstd --progress --ultra --long -T0 -22 --rsyncable --exclude-compressed -o <output>.zst`
+ - Compress using 10, without compressing compressed and be rsyncable: `zstd --progress -10 --long -T0 --rsyncable --exclude-compressed -o <output>.zst`
+ - Fast compression: `zstd --progress --long -T0 --fast --exclude-compressed -o <output>.zst`
+ - Adaptive compresson for compressing dir and store it onto another device: `zstd --progress --long -T0 --adapt --exclude-compressed -o <output>.zst`
