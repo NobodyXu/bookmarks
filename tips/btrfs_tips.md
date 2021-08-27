@@ -31,7 +31,7 @@ uncompressed data (compressed data is supported in v2), it is suggested to first
 compress it and store it locally:
 
 ```
-btrfs send /path/to/snapshot | zstd --progress --ultra --long -22 --rsyncable -T0 --exclude-compressed -o <file>.zst
+sudo btrfs send /path/to/snapshot | zstd --progress --ultra --long -22 --rsyncable -T0 --exclude-compressed -o <file>.zst
 ```
 
 Then transmit it using `rsync` to the remote computer in a resumable manner.
@@ -39,7 +39,7 @@ Then transmit it using `rsync` to the remote computer in a resumable manner.
 ## Initial bootstrap
 
 ```
-btrfs send /path/to/snapshot | ... | btrfs receive /path/to/snapshot/dir
+sudo btrfs send /path/to/snapshot | ... | btrfs receive /path/to/snapshot/dir
 ```
 
 `/path/to/snapshot` should be kept around for the next backup, so that the data can be sent
@@ -50,7 +50,7 @@ incrementally.
 We can now send the difference between the old and new backup to the backup volume:
 
 ```
-btrfs send /path/to/snapshot /path/to/new/snapshot | ... | btrfs receive /path/to/snapshot/dir
+sudo btrfs send /path/to/snapshot /path/to/new/snapshot | ... | btrfs receive /path/to/snapshot/dir
 ```
 
 Now we can delete the old snapshot on local machine:
