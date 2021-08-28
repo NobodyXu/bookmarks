@@ -50,7 +50,7 @@ incrementally.
 We can now send the difference between the old and new backup to the backup volume:
 
 ```
-sudo btrfs send /path/to/snapshot /path/to/new/snapshot | ... | btrfs receive /path/to/snapshot/dir
+sudo btrfs send -p /path/to/snapshot /path/to/new/snapshot | ... | btrfs receive /path/to/snapshot/dir
 ```
 
 Now we can delete the old snapshot on local machine:
