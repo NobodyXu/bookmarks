@@ -44,6 +44,7 @@
      > This crate is a version of servo_arc meant for general community use.
  16. [Lucretiel/brownstone](https://github.com/Lucretiel/brownstone) A library for constructing statically sized arrays
  17. [colin-kiegel/rust-derive-builder](https://github.com/colin-kiegel/rust-derive-builder) automatically creates builder for struct
+ 18. [kobzol/rust-delegate](https://github.com/kobzol/rust-delegate) delegate macro for Rust
 
 ## cmdline parsing
  1. [TeXitoi/structopt](https://github.com/TeXitoi/structopt)
