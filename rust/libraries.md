@@ -160,3 +160,7 @@
 
 ## FFI
  1. [dtolnay/cxx](https://github.com/dtolnay/cxx)
+
+## (De)serialisation
+
+ 1. [Diggsey/ijson](https://github.com/Diggsey/ijson)
