@@ -1,0 +1,1 @@
+ - Binary crate `cargo-msrv` can be used to check for the msrv of a rust project.
