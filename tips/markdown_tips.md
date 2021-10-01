@@ -1,0 +1,1 @@
+ - `grip </path/to/markdown>` to convert markdown to pdf
