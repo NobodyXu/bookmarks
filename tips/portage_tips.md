@@ -2,3 +2,4 @@
  - `equery depends <package>` prints package depends on it
  - `equery size <package>` shows the size occupied by package
  - `emerge --info | grep ^FEATURES=` prints the currently enabled `FEATURES`
+ - `equery b <file>` list all packages owning a particular file
