@@ -1,0 +1,3 @@
+ - `-net user,hostfwd=tcp::3389-:22 -net nic` can forward tcp port `22` in vm to `3389`;
+ - `-machine type=q35,accel=kvm` enabes kvm accelration;
+ - `-smp $(nproc)` enables all cpu cores to be used in the vm.
