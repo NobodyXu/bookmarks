@@ -1,0 +1,1 @@
+ - Use `reset` to reset the terminal if some program messed it up;
