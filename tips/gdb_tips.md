@@ -23,3 +23,4 @@
  - Print the source code of function using `list`
  - Use `gdb --args /path/to/program args...` to run program with args
  - Use `set follow-fork-mode child` to follow the children after `clone`ed
+ - Use `target remote [host]:port` to connect to `gdbserver`.
