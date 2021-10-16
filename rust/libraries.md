@@ -8,18 +8,20 @@
  5. [matthieu-m/static-rc](https://github.com/matthieu-m/static-rc) Compile-time reference counting
  6. [dtolnay/no-panic](https://github.com/dtolnay/no-panic) Attribute macro to require that the compiler prove a function can't ever panic
  7. [illicitonion/num_enum](https://github.com/illicitonion/num_enum) help convert enum to/from integer
- 8. [jaemk/cached](https://github.com/jaemk/cached)
- 9. [edgeandnode/eventuals](https://github.com/edgeandnode/eventuals) observer pattern
- 10. [calebzulawski/multiversion](https://github.com/calebzulawski/multiversion) for dynamic and static dispatch of the same function optimized for different CPU model
- 11. [anixe/doku](https://github.com/anixe/doku) Doku is a framework for building documentation with code-as-data methodology in mind.
- 12. [systemcluster/staticfilemap](https://github.com/systemcluster/staticfilemap) Procedural macro to embed optionally compressed files during compilation.
- 13. [CAD97/pointer-utils/crates/slice-dst](https://github.com/CAD97/pointer-utils/tree/master/crates/slice-dst) 
+
+## Data structure
+ 1. [jaemk/cached](https://github.com/jaemk/cached)
+ 2. [edgeandnode/eventuals](https://github.com/edgeandnode/eventuals) observer pattern
+ 3. [calebzulawski/multiversion](https://github.com/calebzulawski/multiversion) for dynamic and static dispatch of the same function optimized for different CPU model
+ 4. [anixe/doku](https://github.com/anixe/doku) Doku is a framework for building documentation with code-as-data methodology in mind.
+ 5. [systemcluster/staticfilemap](https://github.com/systemcluster/staticfilemap) Procedural macro to embed optionally compressed files during compilation.
+ 6. [CAD97/pointer-utils/crates/slice-dst](https://github.com/CAD97/pointer-utils/tree/master/crates/slice-dst) 
      
      > Support for custom slice-based DSTs.
      > 
      > By handling allocation manually, we can manually allocate the Box for a custom DST. So long as the size lines up with what it should be, once the metadata is created, Rust actually already handles the DSTs it already supports perfectly well, safely! Setting them up is the hard part, which this crate handles for you.
  
- 14. [CAD97/pointer-utils](https://github.com/CAD97/pointer-utils)
+ 7. [CAD97/pointer-utils](https://github.com/CAD97/pointer-utils)
      
      > Pointer utility crates
      > 
@@ -29,7 +31,7 @@
      > - ptr-union: Pointer unions the size of a pointer.
      > - slice-dst: Support for custom slice-based DSTs.
 
- 15. [Manishearth/triomphe](https://github.com/Manishearth/triomphe)
+ 8. [Manishearth/triomphe](https://github.com/Manishearth/triomphe)
      
      > Fork of Arc. This has the following advantages over std::sync::Arc:
      > 
@@ -42,11 +44,12 @@
      > - triomphe::ArcUnion is union of two triomphe:Arcs which fits inside one word of memory
      > 
      > This crate is a version of servo_arc meant for general community use.
- 16. [Lucretiel/brownstone](https://github.com/Lucretiel/brownstone) A library for constructing statically sized arrays
- 17. [colin-kiegel/rust-derive-builder](https://github.com/colin-kiegel/rust-derive-builder) automatically creates builder for struct
- 18. [idanarye/rust-typed-builder](https://github.com/idanarye/rust-typed-builder) automatically creates compile-time checked builder
- 19. [kobzol/rust-delegate](https://github.com/kobzol/rust-delegate) delegate macro for Rust
- 20. [ParkMyCar/compact_str](https://github.com/ParkMyCar/compact_str)
+ 9. [Lucretiel/brownstone](https://github.com/Lucretiel/brownstone) A library for constructing statically sized arrays
+ 10. [colin-kiegel/rust-derive-builder](https://github.com/colin-kiegel/rust-derive-builder) automatically creates builder for struct
+ 11. [idanarye/rust-typed-builder](https://github.com/idanarye/rust-typed-builder) automatically creates compile-time checked builder
+ 12. [kobzol/rust-delegate](https://github.com/kobzol/rust-delegate) delegate macro for Rust
+ 13. [ParkMyCar/compact_str](https://github.com/ParkMyCar/compact_str)
+ 14. [japaric/heapless](https://github.com/japaric/heapless)
 
 ## cmdline parsing
  1. [TeXitoi/structopt](https://github.com/TeXitoi/structopt)
