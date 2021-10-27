@@ -1,0 +1,1 @@
+ - `findmnt` to list all mountpoints
