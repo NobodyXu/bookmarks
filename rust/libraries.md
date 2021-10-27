@@ -8,7 +8,7 @@
  5. [matthieu-m/static-rc](https://github.com/matthieu-m/static-rc) Compile-time reference counting
  6. [dtolnay/no-panic](https://github.com/dtolnay/no-panic) Attribute macro to require that the compiler prove a function can't ever panic
  7. [illicitonion/num_enum](https://github.com/illicitonion/num_enum) help convert enum to/from integer
- 8. [nolanderc/dyn_struct](https://github.com/nolanderc/dyn_struct)
+ 8. [nolanderc/dyn_struct](https://github.com/nolanderc/dyn_struct) for creating objects from unsized struct
 
 ## Data structure
  1. [jaemk/cached](https://github.com/jaemk/cached)
