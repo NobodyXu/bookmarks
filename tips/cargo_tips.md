@@ -19,3 +19,6 @@
    ```
    cargo with 'objdump -d' -- test | rustfilt
    ```
+
+ - Use `cargo supply-chain` to lists the crates depended on and people with publishing rights.
+ - Use `cargo tree` to recursively list all deps of a crate.
