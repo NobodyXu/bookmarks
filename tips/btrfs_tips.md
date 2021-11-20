@@ -76,9 +76,18 @@ You can do the same on the remote if you want.
 # Swapfile on Btrfs
 
 ```
+# Must be created in a subvolume, eitherwise snapshot won't work.
+cd /path/to/btrfs
+btrfs subvolume create swap
+cd swap
+
 truncate -s 0 swapfile
+
+# Disable copy-on-write
 chattr +C swapfile
+# Disable compression
 btrfs property set swapfile compression none
+
 fallocate -l 512M swapfile
 chmod 600 swapfile
 mkswap swapfile
