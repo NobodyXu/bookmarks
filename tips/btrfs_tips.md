@@ -72,3 +72,14 @@ mv /path/to/new/snapshot /path/to/snapshot
 ```
 
 You can do the same on the remote if you want.
+
+# Swapfile on Btrfs
+
+```
+truncate -s 0 swapfile
+chattr +C swapfile
+btrfs property set swapfile compression none
+fallocate -l 512M swapfile
+chmod 600 swapfile
+mkswap swapfile
+```
