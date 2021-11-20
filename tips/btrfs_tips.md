@@ -10,6 +10,17 @@
    `flushoncommit` should be enabled to provide the same data on power-loss guarantee
    as ext4.
 
+# Scrubbing (checking for errors)
+
+To check a mounted btrfs:
+
+```
+btrfs scrub start -Bd <mountpoint>
+```
+
+`-B` means do not background
+`-d` means stats per device
+
 # Create snapshot
 
 ```
