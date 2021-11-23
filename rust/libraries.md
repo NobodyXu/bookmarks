@@ -10,6 +10,9 @@
 
 ## Memory allocator
  1. [sebastiencs/shared-arena](https://github.com/sebastiencs/shared-arena)
+    
+    Memory pools are usefull when allocating and deallocating lots of data of the same size.
+    Using a memory pool speed up those allocations/deallocations.
 
 ## Helpers
  1. [init_array](https://crates.io/crates/init_array)
