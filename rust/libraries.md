@@ -8,6 +8,9 @@
     A macro to ergonomically define an item depending on a large number of #[cfg] parameters. Structured like an if-else chain,
     the first matching branch is the item that gets emitted.
 
+## Memory allocator
+ 1. [sebastiencs/shared-arena](https://github.com/sebastiencs/shared-arena)
+
 ## Helpers
  1. [init_array](https://crates.io/crates/init_array)
  2. [Lucretiel/iterate](https://docs.rs/iterate/1.0.0/iterate/macro.iterate.html)
