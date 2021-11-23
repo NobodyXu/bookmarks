@@ -1,5 +1,13 @@
 [libc](https://crates.io/crates/libc)
 
+## Configuration
+ 1. [cuviper/autocfg](https://github.com/cuviper/autocfg)
+    A Rust library for build scripts to automatically configure code based on compiler support. Code snippets are dynamically tested to see if
+    the rustc will accept them, rather than hard-coding specific version support.
+ 2. [alexcrichton/cfg-if](https://github.com/alexcrichton/cfg-if)
+    A macro to ergonomically define an item depending on a large number of #[cfg] parameters. Structured like an if-else chain,
+    the first matching branch is the item that gets emitted.
+
 ## Helpers
  1. [init_array](https://crates.io/crates/init_array)
  2. [Lucretiel/iterate](https://docs.rs/iterate/1.0.0/iterate/macro.iterate.html)
