@@ -107,3 +107,8 @@ fallocate -l 512M swapfile
 chmod 600 swapfile
 mkswap swapfile
 ```
+
+# Estimating effect of compression
+
+Install [kilobyte/compsize](https://github.com/kilobyte/compsize)
+and use it.
