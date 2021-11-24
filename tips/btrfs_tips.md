@@ -13,7 +13,11 @@ If the filesystem has already `mkfs`ed, then use
 
    `noatime,discard=async` are there to optimise btrfs.
 
-   `compress=zstd:15` is used to compress compressible with zstd, level 15 (currently the highest).
+   `compress-force=zstd:15` is used to compress compressible with zstd,
+   level 15 (currently the highest).
+
+   `compress-force` is used since btrfs already odes a check internally
+   that is more efficient than the one btrfs does if `compress` is used.
 
    `flushoncommit` should be enabled to provide the same data on power-loss guarantee
    as ext4.
