@@ -1,4 +1,4 @@
-# Creation
+# `mkfs.btrfs`
 
 It is suggested to use `-m dup` when creating the filesystem to have DUP metadata
 even on a single disk to improve reliability.
