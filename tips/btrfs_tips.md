@@ -1,3 +1,11 @@
+# Creation
+
+It is suggested to use `-m dup` when creating the filesystem to have DUP metadata
+even on a single disk to improve reliability.
+
+If the filesystem has already `mkfs`ed, then use
+`btrfs balance start -mconvert=dup /mount/point`.
+
 # mounting
  - suggested to use `noatime,discard=async,nofail,compress=zstd:15,flushoncommit`.
    
