@@ -6,6 +6,9 @@ even on a single disk to improve reliability.
 If the filesystem has already `mkfs`ed, then use
 `btrfs balance start -mconvert=dup /mount/point`.
 
+It is also strongly recommended to enable `space_cache=v2` at `mkfs` time by passing
+`-R free-space-tree` to `mkfs.btrfs`.
+
 # mounting
  - suggested to use `noatime,discard=async,nofail,compress=zstd:15,flushoncommit`.
    
