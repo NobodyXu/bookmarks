@@ -66,9 +66,12 @@
  10. [colin-kiegel/rust-derive-builder](https://github.com/colin-kiegel/rust-derive-builder) automatically creates builder for struct
  11. [idanarye/rust-typed-builder](https://github.com/idanarye/rust-typed-builder) automatically creates compile-time checked builder
  12. [kobzol/rust-delegate](https://github.com/kobzol/rust-delegate) delegate macro for Rust
- 13. [ParkMyCar/compact_str](https://github.com/ParkMyCar/compact_str)
- 14. [japaric/heapless](https://github.com/japaric/heapless)
+ 13. [japaric/heapless](https://github.com/japaric/heapless)
 
+## String
+ 1. [ParkMyCar/compact_str](https://github.com/ParkMyCar/compact_str) Has the same size as `String`; Can store at most 24 ascii character on stack.
+ 2. [rust-analyzer/smol_str](https://github.com/rust-analyzer/smol_str) Has the same size as `String`; Can store at most 22 bytes on stack.
+ 
 ## cmdline parsing
  1. [TeXitoi/structopt](https://github.com/TeXitoi/structopt)
 
