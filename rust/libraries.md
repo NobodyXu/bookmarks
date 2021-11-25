@@ -73,6 +73,7 @@
  2. [rust-analyzer/smol_str](https://github.com/rust-analyzer/smol_str) Has the same size as `String`; Can store at most 22 bytes on stack.
  3. [Nugine/const-str](https://github.com/Nugine/const-str) Compile-time string operations.
  4. [vitiral/strfmt](https://github.com/vitiral/strfmt) formatting dynamic strings.
+ 5. [DoumanAsh/str-buf](https://github.com/DoumanAsh/str-buf) Stack based string.
  
 ## cmdline parsing
  1. [TeXitoi/structopt](https://github.com/TeXitoi/structopt)
