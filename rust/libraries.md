@@ -74,6 +74,7 @@
  3. [Nugine/const-str](https://github.com/Nugine/const-str) Compile-time string operations.
  4. [vitiral/strfmt](https://github.com/vitiral/strfmt) formatting dynamic strings.
  5. [DoumanAsh/str-buf](https://github.com/DoumanAsh/str-buf) Stack based string.
+ 6. [Kixiron/lasso](https://github.com/Kixiron/lasso) A fast, concurrent string interner.
  
 ## cmdline parsing
  1. [TeXitoi/structopt](https://github.com/TeXitoi/structopt)
