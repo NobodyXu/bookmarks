@@ -71,6 +71,7 @@
 ## String
  1. [ParkMyCar/compact_str](https://github.com/ParkMyCar/compact_str) Has the same size as `String`; Can store at most 24 ascii character on stack.
  2. [rust-analyzer/smol_str](https://github.com/rust-analyzer/smol_str) Has the same size as `String`; Can store at most 22 bytes on stack.
+ 3. [Nugine/const-str](https://github.com/Nugine/const-str) Compile-time string operations.
  
 ## cmdline parsing
  1. [TeXitoi/structopt](https://github.com/TeXitoi/structopt)
