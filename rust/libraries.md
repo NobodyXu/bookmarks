@@ -74,6 +74,15 @@
  3. [Nugine/const-str](https://github.com/Nugine/const-str) Compile-time string operations.
  4. [vitiral/strfmt](https://github.com/vitiral/strfmt) formatting dynamic strings.
  5. [Kixiron/lasso](https://github.com/Kixiron/lasso) A fast, concurrent string interner.
+ 6. [zbraniecki/tinystr](https://github.com/zbraniecki/tinystr), provides:
+     
+     - TinyStr4 an ASCII-only string limited to 4 characters.
+     - TinyStr8 an ASCII-only string limited to 8 characters.
+     - TinyStr16 an ASCII-only string limited to 16 characters.
+     - TinyStrAuto (enum):
+        - Tiny when the string is 16 characters or less.
+        - Heap when the string is 17 or more characters.
+
  
 ## cmdline parsing
  1. [TeXitoi/structopt](https://github.com/TeXitoi/structopt)
