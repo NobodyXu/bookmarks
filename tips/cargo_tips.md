@@ -23,3 +23,4 @@
  - Use `cargo supply-chain` to lists the crates depended on and people with publishing rights.
  - Use `cargo tree` to recursively list all deps of a crate.
  - Use `cargo geiger --all-features` to print statistics on use of `unsafe` in the crate and its dependencies.
+ - Use `cargo audit` to check for vulnerabilities in the dependencies
