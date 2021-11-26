@@ -25,3 +25,6 @@
  - Use `cargo geiger --all-features` to print statistics on use of `unsafe` in the crate and its dependencies.
  - Use `cargo audit` to check for vulnerabilities in the dependencies
  - Use `cargo crev` to review crates. [Getting started](https://github.com/crev-dev/cargo-crev/blob/master/cargo-crev/src/doc/getting_started.md)
+ - Use [`cargo llvm-cov`](https://github.com/taiki-e/cargo-llvm-cov) for code coverage.
+   
+   It is much faster than cargo-tarpaulin
