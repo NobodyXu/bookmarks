@@ -27,6 +27,17 @@
 ## Synchronoisation
  1. [Amanieu/parking_lot](https://github.com/Amanieu/parking_lot) Provides synchronisation primitives that are significantly faster and occupy less space compared to standard library implementation using posix
 
+## Thread Local variables
+ 1. [amanieu/thread_local-rs](https://github.com/amanieu/thread_local-rs)
+    
+    > This library provides the ThreadLocal type which allow a separate copy of an object to be used for each thread.
+    > This allows for per-object thread-local storage, unlike the standard library's thread_local! macro which only allows static thread-local storage.
+    > 
+    > Per-thread objects are not destroyed when a thread exits. Instead, objects are only destroyed when the ThreadLocal containing them is destroyed.
+    > 
+    > Note that since thread IDs are recycled when a thread exits, it is possible for one thread to retrieve the object of another thread.
+    > Since this can only occur after a thread has exited this does not lead to any race conditions.
+
 ## Data structure
  1. [jaemk/cached](https://github.com/jaemk/cached)
  2. [edgeandnode/eventuals](https://github.com/edgeandnode/eventuals) observer pattern
