@@ -24,3 +24,4 @@
  - Use `cargo tree` to recursively list all deps of a crate.
  - Use `cargo geiger --all-features` to print statistics on use of `unsafe` in the crate and its dependencies.
  - Use `cargo audit` to check for vulnerabilities in the dependencies
+ - Use `cargo crev` to review crates. [Getting started](https://github.com/crev-dev/cargo-crev/blob/master/cargo-crev/src/doc/getting_started.md)
