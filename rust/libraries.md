@@ -82,11 +82,6 @@
      
      > Thunderdome is a generational arena inspired by generational-arena, slotmap, and slab. 
      > It provides constant time insertion, lookup, and removal via small (8 byte) keys (which can be converted to 4-byte slot) returned from Arena.
- 15. [RookAndPawn/ev_slotmap](https://github.com/RookAndPawn/ev_slotmap)
-     
-     > A lock-free, concurrent slot map.
-     > 
-     > Most of this library is a rip off of Jon Gjengset's evmap but with a few notable simplifications
 
 ## String
  1. [ParkMyCar/compact_str](https://github.com/ParkMyCar/compact_str) Has the same size as `String`; Can store at most 24 ascii character on stack.
