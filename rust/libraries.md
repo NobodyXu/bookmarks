@@ -78,6 +78,10 @@
  11. [idanarye/rust-typed-builder](https://github.com/idanarye/rust-typed-builder) automatically creates compile-time checked builder
  12. [kobzol/rust-delegate](https://github.com/kobzol/rust-delegate) delegate macro for Rust
  13. [japaric/heapless](https://github.com/japaric/heapless)
+ 14. [LPGhatguy/thunderdome](https://github.com/LPGhatguy/thunderdome)
+     
+     Thunderdome is a generational arena inspired by generational-arena, slotmap, and slab. 
+     It provides constant time insertion, lookup, and removal via small (8 byte) keys (which can be converted to 4-byte slot) returned from Arena.
 
 ## String
  1. [ParkMyCar/compact_str](https://github.com/ParkMyCar/compact_str) Has the same size as `String`; Can store at most 24 ascii character on stack.
