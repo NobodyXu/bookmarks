@@ -28,3 +28,6 @@
  - Use [`cargo llvm-cov`](https://github.com/taiki-e/cargo-llvm-cov) for code coverage.
    
    It is much faster than cargo-tarpaulin
+ - To upgrade all binary crates installed via `cargo install`,
+   first install third-party crate by using `cargo install cargo-update`,
+   then execute `cargo install-update -a` to upgrade all of the upgradable binary crates.
