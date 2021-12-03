@@ -82,6 +82,12 @@
      
      > Thunderdome is a generational arena inspired by generational-arena, slotmap, and slab. 
      > It provides constant time insertion, lookup, and removal via small (8 byte) keys (which can be converted to 4-byte slot) returned from Arena.
+ 15. [Gankra/thin-vec](https://github.com/Gankra/thin-vec)
+     
+     > `ThinVec` is a Vec that stores its length and capacity inline, making it take up less space.
+     > Currently this crate mostly exists to facilitate gecko ffi.
+     > The crate isn't quite ready for use elsewhere, as it currently unconditionally uses the libc allocator.
+
 
 ## String
  1. [ParkMyCar/compact_str](https://github.com/ParkMyCar/compact_str) Has the same size as `String`; Can store at most 24 ascii character on stack.
