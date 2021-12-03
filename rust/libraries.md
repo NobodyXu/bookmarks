@@ -88,6 +88,9 @@
      > Currently this crate mostly exists to facilitate gecko ffi.
      > The crate isn't quite ready for use elsewhere, as it currently unconditionally uses the libc allocator.
  16. [servo/rust-smallvec](https://github.com/servo/rust-smallvec)
+ 17. [andylokandy/smallbox](https://github.com/andylokandy/smallbox)
+     
+     > `SmallBox` optimization: store small item on stack and fallback to heap for large item. Requires Rust 1.36+.
 
 ## String
  1. [ParkMyCar/compact_str](https://github.com/ParkMyCar/compact_str) Has the same size as `String`; Can store at most 24 ascii character on stack.
