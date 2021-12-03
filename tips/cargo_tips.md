@@ -31,3 +31,4 @@
  - To upgrade all binary crates installed via `cargo install`,
    first install third-party crate by using `cargo install cargo-update`,
    then execute `cargo install-update -a` to upgrade all of the upgradable binary crates.
+ - Use `RUSTFLAGS=-Zprint-type-sizes cargo +nightly build --release` to print sizes of types.
