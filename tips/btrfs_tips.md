@@ -36,6 +36,12 @@ btrfs scrub start -Bd <mountpoint>
 `-B` means do not background
 `-d` means stats per device
 
+# Recompress files after changing compression options
+
+```
+btrfs filesystem defragment -r -czstd <mountpoint>
+```
+
 # Create snapshot
 
 ```
