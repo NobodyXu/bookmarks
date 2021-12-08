@@ -5,6 +5,13 @@
      - code generation
      - AOT data processing and then bundle it into the binary at compile time using [Macro std::include_bytes]
 
+## Sanitizers
+
+ 1. [japaric/rust-san](https://github.com/japaric/rust-san) 
+    
+    How-to: Sanitize your Rust code!
+    
+
 ## constexpr_resource_file_loading
  1. [Macro std::include_bytes]
 
