@@ -19,6 +19,9 @@ It is also strongly recommended to enable `space_cache=v2` at `mkfs` time by pas
    `compress-force=zstd:15` is used to compress compressible with zstd,
    level 15 (currently the highest).
 
+   For rootfs and other use cases in which it is frequently modified,
+   it is recommended to use level less than or equal to 10.
+
    `compress-force` is used since btrfs already odes a check internally
    that is more efficient than the one btrfs does if `compress` is used.
 
