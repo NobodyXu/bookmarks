@@ -24,6 +24,7 @@
  7. [illicitonion/num_enum](https://github.com/illicitonion/num_enum) help convert enum to/from integer
  8. [nolanderc/dyn_struct](https://github.com/nolanderc/dyn_struct) for creating objects from unsized struct
  9. [eolu/const-gen](https://github.com/eolu/const-gen) Generate complex data structure at compile time using build.rs
+ 10. [sunfishcode/io-lifetimes](https://github.com/sunfishcode/io-lifetimes) Provides implementation of `OwnedFd`, `BorrowedFd` and etc as described in [RFC3128](https://github.com/rust-lang/rfcs/blob/master/text/3128-io-safety.md)
 
 ## Synchronoisation
  1. [Amanieu/parking_lot](https://github.com/Amanieu/parking_lot) Provides synchronisation primitives that are significantly faster and occupy less space compared to standard library implementation using posix
