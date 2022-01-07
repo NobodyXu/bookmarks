@@ -1,0 +1,3 @@
+ - Installation:
+    - First, clone `https://github.com/rust-analyzer/rust-analyzer.git`;
+    - Then, `cargo xtask install --server` using `cargo >= 1.57.0`.
