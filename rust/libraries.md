@@ -26,6 +26,7 @@
  9. [eolu/const-gen](https://github.com/eolu/const-gen) Generate complex data structure at compile time using build.rs
  10. [sunfishcode/io-lifetimes](https://github.com/sunfishcode/io-lifetimes) Provides implementation of `OwnedFd`, `BorrowedFd` and etc as described in [RFC3128](https://github.com/rust-lang/rfcs/blob/master/text/3128-io-safety.md)
  11. [okannen/static_init](https://gitlab.com/okannen/static_init)
+ 12. [maciejhirsz/beef](https://github.com/maciejhirsz/beef): Faster, more compact implementation of `std::borrow::Cow`
 
 ## Synchronoisation
  1. [Amanieu/parking_lot](https://github.com/Amanieu/parking_lot) Provides synchronisation primitives that are significantly faster and occupy less space compared to standard library implementation using posix
