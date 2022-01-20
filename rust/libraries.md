@@ -14,6 +14,9 @@
     Memory pools are usefull when allocating and deallocating lots of data of the same size.
     Using a memory pool speed up those allocations/deallocations.
 
+## Iterator
+ 1. [jDomantas/internal-iterator](https://github.com/jDomantas/internal-iterator) Internal iterator equivalent of `std::iter::Iterator`.
+
 ## Helpers
  1. [init_array](https://crates.io/crates/init_array)
  2. [Lucretiel/iterate](https://docs.rs/iterate/1.0.0/iterate/macro.iterate.html)
