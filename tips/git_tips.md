@@ -4,3 +4,7 @@
  - `git rebase <commit/HEAD~number> -i` to collapse several commits into one or rewriting commit message.
  - `git rebase --exec 'git commit --amend --no-edit -n -s' -i HEAD` to fix unsigned old commits, learnt from [here](https://superuser.com/questions/397149/can-you-gpg-sign-old-commits)
  - To use a different git email in certain dir, check [this](https://stackoverflow.com/a/43654115/8375400).
+ - `git rebase --onto BASE_BRANCH <COMMIT>` to rebase `<COMMIT>` onto `BASE_BRANCH`.
+   
+   Super useful when the main branch has squashed merge another PR, and your new PR
+   is developed based on that squashed PR.
