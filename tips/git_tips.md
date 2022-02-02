@@ -8,3 +8,4 @@
    
    Super useful when the main branch has squashed merge another PR, and your new PR
    is developed based on that squashed PR.
+ - `git reset HEAD~1` revert the last unpushed commit.
