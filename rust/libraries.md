@@ -32,6 +32,7 @@
  12. [maciejhirsz/beef](https://github.com/maciejhirsz/beef): Faster, more compact implementation of `std::borrow::Cow`
  13. [jan-auer/dynfmt](https://github.com/jan-auer/dynfmt) formatting strings dynamically, implement subset of `std::fmt`.
  14. [grayjack/sugars](https://github.com/grayjack/sugars) Syntax sugars for creating map, set, dequeue easily and comprehensive view (similar to comprehensive in python).
+ 15. [sagebind/castaway](https://github.com/sagebind/castaway) Experimental crate for zero-cost downcasting for limited compile-time specialization
 
 ## Synchronoisation
  1. [Amanieu/parking_lot](https://github.com/Amanieu/parking_lot) Provides synchronisation primitives that are significantly faster and occupy less space compared to standard library implementation using posix
