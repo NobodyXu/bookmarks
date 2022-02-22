@@ -138,6 +138,7 @@
 
 ## parallel programming
  1. [rayon-rs/rayon](https://github.com/rayon-rs/rayon)
+ 2. [ibraheemdev/seize](https://github.com/ibraheemdev/seize)
 
 ## simd
  1. [AdamNiederer/faster](https://github.com/AdamNiederer/faster)
