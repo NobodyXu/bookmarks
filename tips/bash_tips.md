@@ -2,3 +2,4 @@
     - `-u` ensures you don't use any unset variables
     - `-o pipefail` ensures that if a command in a pipe fails, the overall command
       still exits with an error.
+ - Use `-z ${var+x}` to test if `$var` is set.
