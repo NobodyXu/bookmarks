@@ -17,6 +17,9 @@
 ## Iterator
  1. [jDomantas/internal-iterator](https://github.com/jDomantas/internal-iterator) Internal iterator equivalent of `std::iter::Iterator`.
 
+## In-Process (self) Sandbox
+ 1. [oustrophedon/extrasafe](https://github.com/boustrophedon/extrasafe)
+
 ## Helpers
  1. [init_array](https://crates.io/crates/init_array)
  2. [Lucretiel/iterate](https://docs.rs/iterate/1.0.0/iterate/macro.iterate.html)
