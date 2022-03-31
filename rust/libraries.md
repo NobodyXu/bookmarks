@@ -122,6 +122,8 @@
         - Tiny when the string is 16 characters or less.
         - Heap when the string is 17 or more characters.
 
+## Integer
+ 1. [fastdiv](https://crates.io/crates/fastdiv) This crate performs fast division by a runtime constant divisor, by precomputing a division factor that can then be used repeatedly. We provide fast division for both u32 and u64.
  
 ## cmdline parsing
  1. [TeXitoi/structopt](https://github.com/TeXitoi/structopt)
