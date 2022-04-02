@@ -26,3 +26,4 @@
    ```
    
    From [this stackoverflow question](https://stackoverflow.com/questions/1400078/is-it-possible-to-specify-condition-in-count).
+ - Postgres support `generate_series` to generate integers in the range.
