@@ -27,3 +27,9 @@
    
    From [this stackoverflow question](https://stackoverflow.com/questions/1400078/is-it-possible-to-specify-condition-in-count).
  - Postgres support `generate_series` to generate integers in the range.
+ - [Postgres sorting algorithms](https://madusudanan.com/blog/all-you-need-to-know-about-sorting-in-postgres/)
+   
+    - External merge: Slowest, for tables too large to fit in the memory.
+    - Quick sort: Faster than external merge, used if the table fits in the memory.
+    - Top-N heapsort: Faster than quicksort,  used when `LIMIT` is specified with `ORDER BY`.
+    - Sorting using indexes: Fastest, just lookup, no sorting.
