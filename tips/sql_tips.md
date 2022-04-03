@@ -33,3 +33,5 @@
     - Quick sort: Faster than external merge, used if the table fits in the memory.
     - Top-N heapsort: Faster than quicksort,  used when `LIMIT` is specified with `ORDER BY`.
     - Sorting using indexes: Fastest, just lookup, no sorting.
+ - SQLite support `INSERT OT IGNORE INTO ...` to insert only if the element is not present.
+   It needs to be used with adding `UNIQUE` constraint to the table.
