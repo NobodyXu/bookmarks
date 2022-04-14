@@ -122,6 +122,9 @@
         - Tiny when the string is 16 characters or less.
         - Heap when the string is 17 or more characters.
 
+## Embed data into executable
+ 1. [rust-embed](https://crates.io/crates/rust-embed) Rust Custom Derive Macro which loads files into the rust binary at compile time during release and loads the file from the fs during dev
+
 ## Integer
  1. [fastdiv](https://crates.io/crates/fastdiv) This crate performs fast division by a runtime constant divisor, by precomputing a division factor that can then be used repeatedly. We provide fast division for both u32 and u64.
  
