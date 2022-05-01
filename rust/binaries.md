@@ -5,3 +5,7 @@
     
     "Zero setup" cross compilation and “cross testing” of Rust crates
     
+ 5. [ryankurte/cargo-binstall](https://github.com/ryankurte/cargo-binstall)
+    
+    cargo binstall provides a low-complexity mechanism for installing rust binaries as an alternative to
+    building from source (via cargo install) or manually downloading packages.
