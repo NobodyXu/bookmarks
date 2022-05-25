@@ -34,3 +34,5 @@
  - Use `RUSTFLAGS=-Zprint-type-sizes cargo +nightly build --release` to print sizes of types.
  - Use `cargo upgrade --skip-compatible` to upgrade dependencies that have new major releases,
    it is part of the binary crate `cargo-edit`.
+ - Use `target=$(rustc -vV | grep host | cut -d : -f 2)` to detect the current target,
+   which will output something like ` aarch64-apple-darwin`.
