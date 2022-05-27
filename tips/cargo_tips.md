@@ -31,8 +31,13 @@
  - To upgrade all binary crates installed via `cargo install`,
    first install third-party crate by using `cargo install cargo-update`,
    then execute `cargo install-update -a` to upgrade all of the upgradable binary crates.
+
  - Use `RUSTFLAGS=-Zprint-type-sizes cargo +nightly build --release` to print sizes of types.
+
  - Use `cargo upgrade --skip-compatible` to upgrade dependencies that have new major releases,
    it is part of the binary crate `cargo-edit`.
+
  - Use `target=$(rustc -vV | grep host | cut -d : -f 2)` to detect the current target,
    which will output something like ` aarch64-apple-darwin`.
+
+ - [`tokei`](https://github.com/XAMPPRocky/tokei) for counting lines of code.
