@@ -39,7 +39,8 @@
  16. [Emoun/duplicate](https://github.com/Emoun/duplicate)  Easy code duplicate with substitution for Rust
  17. [lyonsyonii/akin](https://github.com/lyonsyonii/akin)  Rust crate for writing repetitive code easier and faster.
  18. [djkoloski/munge](https://github.com/djkoloski/munge) munge makes it easy and safe to destructure raw pointers, MaybeUninits, Cells, and Pins by prodoving destructing.
- 19. [Peternator7/strum](https://github.com/Peternator7/strum) A small rust library for adding custom derives to enums 
+ 19. [Peternator7/strum](https://github.com/Peternator7/strum) A small rust library for adding custom derives to enums
+ 20. [kas-gui/impl-tools](https://github.com/kas-gui/impl-tools) Helper macros: autoimpl, impl_scope
 
 ## Synchronoisation
  1. [Amanieu/parking_lot](https://github.com/Amanieu/parking_lot) Provides synchronisation primitives that are significantly faster and occupy less space compared to standard library implementation using posix
