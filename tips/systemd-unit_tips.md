@@ -120,3 +120,4 @@
    Learnt from:
     - [systemd-socket-proxyd - freedesktop man page](https://www.freedesktop.org/software/systemd/man/systemd-socket-proxyd.html)
     - [On-demand SSH Socks proxy through systemd user units with socket-activation doesn't restart as wished](https://unix.stackexchange.com/questions/383678/on-demand-ssh-socks-proxy-through-systemd-user-units-with-socket-activation-does)
+ - `systemd-analyze security $unit` to analyze security
