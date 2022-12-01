@@ -1,1 +1,2 @@
  - Binary crate `cargo-msrv` can be used to check for the msrv of a rust project.
+ - `RUSTFLAGS=-Zprint-type-sizes cargo +nightly build --release >/tmp/output` to print type sizes to `/tmp/output`
