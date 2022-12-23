@@ -1,0 +1,1 @@
+ - `otool -L $binary` to find out runtime dependencies of the `$binary`
