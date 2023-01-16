@@ -41,3 +41,4 @@
    which will output something like ` aarch64-apple-darwin`.
 
  - [`tokei`](https://github.com/XAMPPRocky/tokei) for counting lines of code.
+ - `cargo cache -e -f -g` can be used to cleanup unused cache in `$CARGO_HOME` and recompress registries.
