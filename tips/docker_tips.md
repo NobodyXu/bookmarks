@@ -56,3 +56,4 @@
    
    exit $exit_status
    ```
+ - Use `--platform` to specify which platform of image to use, e.g. `linux/amd64`, `linux/arm64`
